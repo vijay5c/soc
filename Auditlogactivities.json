@@ -1,0 +1,4357 @@
+[
+ {
+   "Friendly name": "Added delegation entry",
+   "Operation": "Add delegation entry.",
+   "Description": "An authentication permission was created/granted to an application in Microsoft Entra ID."
+ },
+ {
+   "Friendly name": "Added service principal",
+   "Operation": "Add service principal.",
+   "Description": "An application was registered in Microsoft Entra ID. An application is represented by a service principal in the directory."
+ },
+ {
+   "Friendly name": "Added credentials to a service principal",
+   "Operation": "Add service principal credentials.",
+   "Description": "Credentials were added to a service principal in Microsoft Entra ID. A service principle represents an application in the directory."
+ },
+ {
+   "Friendly name": "Removed delegation entry",
+   "Operation": "Remove delegation entry.",
+   "Description": "An authentication permission was removed from an application in Microsoft Entra ID."
+ },
+ {
+   "Friendly name": "Removed a service principal from the directory",
+   "Operation": "Remove service principal.",
+   "Description": "An application was deleted/unregistered from Microsoft Entra ID. An application is represented by a service principal in the directory."
+ },
+ {
+   "Friendly name": "Removed credentials from a service principal",
+   "Operation": "Remove service principal credentials.",
+   "Description": "Credentials were removed from a service principal in Microsoft Entra ID. A service principle represents an application in the directory."
+ },
+ {
+   "Friendly name": "Set delegation entry",
+   "Operation": "Set delegation entry.",
+   "Description": "An authentication permission was updated for an application in Microsoft Entra ID."
+ },
+ {
+   "Friendly name": "Updated organization privacy settings",
+   "Operation": "UpdatedOrganizationBriefingSettings",
+   "Description": "Admin updates the organization privacy settings for Briefing email."
+ },
+ {
+   "Friendly name": "Updated user privacy settings",
+   "Operation": "UpdatedUserBriefingSettings",
+   "Description": "Admin updates the user privacy settings for Briefing email."
+ },
+ {
+   "Friendly name": "Policy update",
+   "Operation": "SupervisionPolicyCreated, SupervisionPolicyUpdated, SupervisionPolicyDeleted",
+   "Description": "A communication compliance administrator has performed a policy update."
+ },
+ {
+   "Friendly name": "Policy match",
+   "Operation": "SupervisionRuleMatch",
+   "Description": "A user has sent a message that matches a policy's condition."
+ },
+ {
+   "Friendly name": "Tag applied to message(s)",
+   "Operation": "SupervisoryReviewTag",
+   "Description": "Tags are applied to messages or messages are resolved."
+ },
+ {
+   "Friendly name": "Roles change",
+   "Operation": "ComplianceManagerRolesChange",
+   "Description": "An admin changed the roles for users."
+ },
+ {
+   "Friendly name": "Tenant automation level change",
+   "Operation": "ComplianceManagerAutomationLevelChange",
+   "Description": "An admin changed the automation level for tenant across all actions."
+ },
+ {
+   "Friendly name": "Testing source automation change",
+   "Operation": "ComplianceManagerAutomationChange",
+   "Description": "An admin changed the testing source automation settings."
+ },
+ {
+   "Friendly name": "Created a new Copilot plugin",
+   "Operation": "CreateCopilotPlugin",
+   "Description": "A user (or admin or system on behalf of a user) created a new Copilot plugin."
+ },
+ {
+   "Friendly name": "Created a new Copilot promptbook",
+   "Operation": "CreateCopilotPromptBook",
+   "Description": "A user (or admin or system on behalf of a user) created a new promptbook in Copilot."
+ },
+ {
+   "Friendly name": "Deleted a Copilot plugin",
+   "Operation": "DeleteCopilotPlugin",
+   "Description": "A user (or admin or system on behalf of a user) deleted a Copilot plugin."
+ },
+ {
+   "Friendly name": "Deleted a Copilot promptbook",
+   "Operation": "DeleteCopilotPromptBook",
+   "Description": "A user (or admin or system on behalf of a user) deleted a Copilot promptbook."
+ },
+ {
+   "Friendly name": "Disabled a Copilot plugin",
+   "Operation": "DisableCopilotPlugin",
+   "Description": "A user (or admin or system on behalf of a user) disabled a Copilot plugin."
+ },
+ {
+   "Friendly name": "Disabled a Copilot promptbook",
+   "Operation": "DisableCopilotPromptBook",
+   "Description": "A user (or admin or system on behalf of a user) disabled a Copilot promptbook."
+ },
+ {
+   "Friendly name": "Enabled a Copilot plugin",
+   "Operation": "EnableCopilotPlugin",
+   "Description": "A user (or admin or system on behalf of a user) enabled a Copilot plugin."
+ },
+ {
+   "Friendly name": "Enabled a Copilot promptbook",
+   "Operation": "EnableCopilotPromptBook",
+   "Description": "A user (or admin or system on behalf of a user) enabled a Copilot promptbook."
+ },
+ {
+   "Friendly name": "Interacted with Copilot",
+   "Operation": "CopilotInteraction",
+   "Description": "A user (or admin or system on behalf of a user) entered prompts in Copilot."
+ },
+ {
+   "Friendly name": "Updated a Copilot plugin setting",
+   "Operation": "UpdateCopilotPlugin",
+   "Description": "A user (or admin or system on behalf of a user) updated a Copilot plugin setting."
+ },
+ {
+   "Friendly name": "Updated a Copilot promptbook setting",
+   "Operation": "UpdateCopilotPromptBook",
+   "Description": "A user (or admin or system on behalf of a user) updated a Copilot promptbook setting."
+ },
+ {
+   "Friendly name": "Updated a Copilot setting",
+   "Operation": "UpdateCopilotSettings",
+   "Description": "An admin (or system on behalf of an admin) updated a Copilot setting."
+ },
+ {
+   "Friendly name": "Accessed item",
+   "Operation": "LabelContentExplorerAccessedItem",
+   "Description": "An admin (or a user who's a member of the Content Explorer Content Viewer role group) uses content explorer to view an email message or SharePoint/OneDrive document."
+ },
+ {
+   "Friendly name": "Added domain to company",
+   "Operation": "Add domain to company.",
+   "Description": "Added a domain to your organization."
+ },
+ {
+   "Friendly name": "Added a partner to the directory",
+   "Operation": "Add partner to company.",
+   "Description": "Added a partner (delegated administrator) to your organization."
+ },
+ {
+   "Friendly name": "Removed domain from company",
+   "Operation": "Remove domain from company.",
+   "Description": "Removed a domain from your organization."
+ },
+ {
+   "Friendly name": "Removed a partner from the directory",
+   "Operation": "Remove partner from company.",
+   "Description": "Removed a partner (delegated administrator) from your organization."
+ },
+ {
+   "Friendly name": "Set company information",
+   "Operation": "Set company information.",
+   "Description": "Updated the company information for your organization. Includes email addresses for subscription-related email sent by Microsoft 365, and technical notifications about Microsoft 365 services."
+ },
+ {
+   "Friendly name": "Set domain authentication",
+   "Operation": "Set domain authentication.",
+   "Description": "Changed the domain authentication setting for your organization."
+ },
+ {
+   "Friendly name": "Updated the federation settings for a domain",
+   "Operation": "Set federation settings on domain.",
+   "Description": "Changed the federation (external sharing) settings for your organization."
+ },
+ {
+   "Friendly name": "Set password policy",
+   "Operation": "Set password policy.",
+   "Description": "Changed the length and character constraints for user passwords in your organization."
+ },
+ {
+   "Friendly name": "Turned on Azure AD Sync",
+   "Operation": "Set DirSyncEnabled flag.",
+   "Description": "Set the property that enables a directory for Azure AD Sync."
+ },
+ {
+   "Friendly name": "Updated domain",
+   "Operation": "Update domain.",
+   "Description": "Updated the settings of a domain in your organization."
+ },
+ {
+   "Friendly name": "Verified domain",
+   "Operation": "Verify domain.",
+   "Description": "Verified that your organization is the owner of a domain."
+ },
+ {
+   "Friendly name": "Verified email verified domain",
+   "Operation": "Verify email verified domain.",
+   "Description": "Used email verification to verify that your organization is the owner of a domain."
+ },
+ {
+   "Friendly name": "Approved disposal",
+   "Operation": "ApproveDisposal",
+   "Description": "For manual approval: A disposition reviewer approved the disposition of the item to move it to the next disposition stage. If the item was in the only or final stage of disposition review, the disposition approval marked the item as eligible for permanent deletion.  For autoapproval: No manual action was taken within the configured autoapproval time period so the item automatically moved to the next disposition stage. If the item was in the only or final stage of disposition review, the item automatically became eligible for permanent deletion."
+ },
+ {
+   "Friendly name": "Extended retention period",
+   "Operation": "ExtendRetention",
+   "Description": "A disposition reviewer extended the retention period of the item."
+ },
+ {
+   "Friendly name": "Relabeled item",
+   "Operation": "RelabelItem",
+   "Description": "A disposition reviewer relabeled the retention label."
+ },
+ {
+   "Friendly name": "Added reviewers",
+   "Operation": "AddReviewer",
+   "Description": "A disposition reviewer added one or more other users to the current disposition review stage."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Corresponding cmdlet"
+ },
+ {
+   "Friendly name": "Added member to eDiscovery case",
+   "Operation": "CaseMemberAdded",
+   "Description": "Add-ComplianceCaseMember"
+ },
+ {
+   "Friendly name": "Changed content search",
+   "Operation": "SearchUpdated",
+   "Description": "Set-ComplianceSearch"
+ },
+ {
+   "Friendly name": "Changed eDiscovery administrator membership",
+   "Operation": "CaseAdminUpdated",
+   "Description": "Update-eDiscoveryCaseAdmin"
+ },
+ {
+   "Friendly name": "Changed eDiscovery case",
+   "Operation": "CaseUpdated",
+   "Description": "Set-ComplianceCase"
+ },
+ {
+   "Friendly name": "Changed eDiscovery case membership",
+   "Operation": "CaseMemberUpdated",
+   "Description": "Update-ComplianceCaseMember"
+ },
+ {
+   "Friendly name": "Changed search permissions filter",
+   "Operation": "SearchPermissionUpdated",
+   "Description": "Set-ComplianceSecurityFilter"
+ },
+ {
+   "Friendly name": "Changed search query for eDiscovery case hold",
+   "Operation": "HoldUpdated",
+   "Description": "Set-CaseHoldRule"
+ },
+ {
+   "Friendly name": "Content search preview item downloaded",
+   "Operation": "PreviewItemDownloaded",
+   "Description": "N/A"
+ },
+ {
+   "Friendly name": "Content search preview item listed",
+   "Operation": "PreviewItemListed",
+   "Description": "N/A"
+ },
+ {
+   "Friendly name": "Created content search",
+   "Operation": "SearchCreated",
+   "Description": "New-ComplianceSearch"
+ },
+ {
+   "Friendly name": "Created eDiscovery administrator",
+   "Operation": "CaseAdminAdded",
+   "Description": "Add-eDiscoveryCaseAdmin"
+ },
+ {
+   "Friendly name": "Created eDiscovery case",
+   "Operation": "CaseAdded",
+   "Description": "New-ComplianceCase"
+ },
+ {
+   "Friendly name": "Created search permissions filter",
+   "Operation": "SearchPermissionCreated",
+   "Description": "New-ComplianceSecurityFilter"
+ },
+ {
+   "Friendly name": "Created search query for eDiscovery case hold",
+   "Operation": "HoldCreated",
+   "Description": "New-CaseHoldRule"
+ },
+ {
+   "Friendly name": "Deleted content search",
+   "Operation": "SearchRemoved",
+   "Description": "Remove-ComplianceSearch"
+ },
+ {
+   "Friendly name": "Deleted eDiscovery administrator",
+   "Operation": "CaseAdminRemoved",
+   "Description": "Remove-eDiscoveryCaseAdmin"
+ },
+ {
+   "Friendly name": "Deleted eDiscovery case",
+   "Operation": "CaseRemoved",
+   "Description": "Remove-ComplianceCase"
+ },
+ {
+   "Friendly name": "Deleted search permissions filter",
+   "Operation": "SearchPermissionRemoved",
+   "Description": "Remove-ComplianceSecurityFilter"
+ },
+ {
+   "Friendly name": "Deleted search query for eDiscovery case hold",
+   "Operation": "HoldRemoved",
+   "Description": "Remove-CaseHoldRule"
+ },
+ {
+   "Friendly name": "Downloaded export of content search",
+   "Operation": "SearchExportDownloaded",
+   "Description": "N/A"
+ },
+ {
+   "Friendly name": "Previewed results of content search",
+   "Operation": "SearchPreviewed",
+   "Description": "N/A"
+ },
+ {
+   "Friendly name": "Purged results of content search",
+   "Operation": "SearchResultsPurged",
+   "Description": "New-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Removed analysis of content search",
+   "Operation": "RemovedSearchResultsSentToZoom",
+   "Description": "Remove-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Removed export of content search",
+   "Operation": "RemovedSearchExported",
+   "Description": "Remove-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Removed member from eDiscovery case",
+   "Operation": "CaseMemberRemoved",
+   "Description": "Remove-ComplianceCaseMember"
+ },
+ {
+   "Friendly name": "Removed preview results of content search",
+   "Operation": "RemovedSearchPreviewed",
+   "Description": "Remove-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Removed purge action performed on content search",
+   "Operation": "RemovedSearchResultsPurged",
+   "Description": "Remove-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Removed search report",
+   "Operation": "SearchReportRemoved",
+   "Description": "Remove-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Started analysis of content search",
+   "Operation": "SearchResultsSentToZoom",
+   "Description": "New-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Started content search",
+   "Operation": "SearchStarted",
+   "Description": "Start-ComplianceSearch"
+ },
+ {
+   "Friendly name": "Started export of content search",
+   "Operation": "SearchExported",
+   "Description": "New-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Started export report",
+   "Operation": "SearchReport",
+   "Description": "New-ComplianceSearchAction"
+ },
+ {
+   "Friendly name": "Stopped content search",
+   "Operation": "SearchStopped",
+   "Description": "Stop-ComplianceSearch"
+ },
+ {
+   "Friendly name": "CaseViewed",
+   "Operation": "CaseViewed",
+   "Description": "Get-ComplianceCase"
+ },
+ {
+   "Friendly name": "SearchViewed",
+   "Operation": "SearchViewed",
+   "Description": "Get-ComplianceSearch"
+ },
+ {
+   "Friendly name": "ViewedSearchExported",
+   "Operation": "ViewedSearchExported",
+   "Description": "Get-ComplianceSearchAction -Export"
+ },
+ {
+   "Friendly name": "ViewedSearchPreviewed",
+   "Operation": "ViewedSearchPreviewed",
+   "Description": "Get-ComplianceSearchAction -Preview"
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added data to another review set",
+   "Operation": "AddWorkingSetQueryToWorkingSet",
+   "Description": "User added documents from one review set to a different review set."
+ },
+ {
+   "Friendly name": "Added data to review set",
+   "Operation": "AddQueryToWorkingSet",
+   "Description": "User added the search results from a content search associated with an eDiscovery (Premium) case to a review set."
+ },
+ {
+   "Friendly name": "Added non-Microsoft 365 data to review set",
+   "Operation": "AddNonOffice365DataToWorkingSet",
+   "Description": "User added non-Microsoft 365 data to a review set."
+ },
+ {
+   "Friendly name": "Added remediated documents to review set",
+   "Operation": "AddRemediatedData",
+   "Description": "User uploads documents that had indexing errors that were fixed to a review set."
+ },
+ {
+   "Friendly name": "Analyzed data in review set",
+   "Operation": "RunAlgo",
+   "Description": "User ran  analytics on the  documents in a review set."
+ },
+ {
+   "Friendly name": "Annotated document in review set",
+   "Operation": "AnnotateDocument",
+   "Description": "User annotated a document in a review set. Annotation includes redacting content in a document."
+ },
+ {
+   "Friendly name": "Compared load sets",
+   "Operation": "LoadComparisonJob",
+   "Description": "User compared two different load sets in a review set. A load set is when data from a content search that associated with the case is added to a review set."
+ },
+ {
+   "Friendly name": "Converted redacted documents to PDF",
+   "Operation": "BurnJob",
+   "Description": "User converted all the redacted documents in a review set to PDF files."
+ },
+ {
+   "Friendly name": "Created review set",
+   "Operation": "CreateWorkingSet",
+   "Description": "User created a review set."
+ },
+ {
+   "Friendly name": "Created review set search",
+   "Operation": "CreateWorkingSetSearch",
+   "Description": "User created a search query that searches the documents in a review set."
+ },
+ {
+   "Friendly name": "Created tag",
+   "Operation": "CreateTag",
+   "Description": "User created a tag group in a review set. A tag group can contain one or more child tags. These tags are then used to tag documents in the review set."
+ },
+ {
+   "Friendly name": "Deleted review set search",
+   "Operation": "DeleteWorkingSetSearch",
+   "Description": "User deleted a search query in a review set."
+ },
+ {
+   "Friendly name": "Deleted tag",
+   "Operation": "DeleteTag",
+   "Description": "User deleted a tag or a tag group in a review set."
+ },
+ {
+   "Friendly name": "Downloaded document",
+   "Operation": "DownloadDocument",
+   "Description": "User downloaded a document from a review set."
+ },
+ {
+   "Friendly name": "Edited tag",
+   "Operation": "UpdateTag",
+   "Description": "User changed a tag in a review set."
+ },
+ {
+   "Friendly name": "Exported documents from review set",
+   "Operation": "ExportJob",
+   "Description": "User exported documents from a review set."
+ },
+ {
+   "Friendly name": "Modified case setting",
+   "Operation": "UpdateCaseSettings",
+   "Description": "User modified the settings for a case. Case settings include case information, access permissions, and settings that control search and analytics behavior."
+ },
+ {
+   "Friendly name": "Modified review set search",
+   "Operation": "UpdateWorkingSetSearch",
+   "Description": "User edited a search query in a review set."
+ },
+ {
+   "Friendly name": "Previewed review set search",
+   "Operation": "PreviewWorkingSetSearch",
+   "Description": "User previewed the results of a search query in a review set."
+ },
+ {
+   "Friendly name": "Remediated error documents",
+   "Operation": "ErrorRemediationJob",
+   "Description": "User fixes files that contained indexing errors."
+ },
+ {
+   "Friendly name": "Tagged document",
+   "Operation": "TagFiles",
+   "Description": "User tags a document in a review set."
+ },
+ {
+   "Friendly name": "Tagged results of a query",
+   "Operation": "TagJob",
+   "Description": "User tags all of the documents that match the criteria of search query in a review set."
+ },
+ {
+   "Friendly name": "Viewed document in review set",
+   "Operation": "ViewDocument",
+   "Description": "User viewed a document in a review set."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation (cmdlet)",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Created hold in eDiscovery case",
+   "Operation": "New-CaseHoldPolicy",
+   "Description": "A hold was created for an eDiscovery case. A hold can be created with or without specifying a content source. If content sources are specified, they're identified in the audit log entry."
+ },
+ {
+   "Friendly name": "Deleted hold from eDiscovery case",
+   "Operation": "Remove-CaseHoldPolicy",
+   "Description": "A hold that is associated with an eDiscovery case was deleted. Deleting a hold releases all of the content locations from the hold. Deleting the hold also results in deleting the case hold rules associated with the hold (see Remove-CaseHoldRule)."
+ },
+ {
+   "Friendly name": "Changed hold in eDiscovery case",
+   "Operation": "Set-CaseHoldPolicy",
+   "Description": "A hold that is associated with an eDiscovery was changed. Possible changes include adding or removing content locations or turning off (disabling) the hold."
+ },
+ {
+   "Friendly name": "Created search query for eDiscovery case hold",
+   "Operation": "New-CaseHoldRule",
+   "Description": "A query-based hold associated with an eDiscovery case was created."
+ },
+ {
+   "Friendly name": "Deleted search query for eDiscovery case hold",
+   "Operation": "Remove-CaseHoldRule",
+   "Description": "A query-based hold associated with an eDiscovery case was deleted. Removing the query from the hold is often the result of deleting a hold. When a hold or a hold query is deleted, the content locations that were on hold are released."
+ },
+ {
+   "Friendly name": "Changed search query for eDiscovery case hold",
+   "Operation": "Set-CaseHoldRule",
+   "Description": "A query-based hold associated with an eDiscovery case was changed. Possible changes include editing the query or date range for a query-based hold."
+ },
+ {
+   "Friendly name": "Created eDiscovery case",
+   "Operation": "New-ComplianceCase",
+   "Description": "An eDiscovery case was created. When a case is created, you only have to give it a name. Other case-related tasks such as adding members, creating holds, and creating content searches associated with the case result in additional events being logged."
+ },
+ {
+   "Friendly name": "Deleted eDiscovery case",
+   "Operation": "Remove-ComplianceCase",
+   "Description": "An eDiscovery case was deleted. Any hold associated with the case has to be removed before the case can be deleted."
+ },
+ {
+   "Friendly name": "Changed eDiscovery case",
+   "Operation": "Set-ComplianceCase",
+   "Description": "An eDiscovery case was changed. Changes include closing an open case or reopening a closed case."
+ },
+ {
+   "Friendly name": "Added member to eDiscovery case",
+   "Operation": "Add-ComplianceCaseMember",
+   "Description": "A user was added as a member of an eDiscovery case. As a member of a case, a user can perform various case-related tasks depending on whether they've been assigned the necessary permissions."
+ },
+ {
+   "Friendly name": "Removed member from eDiscovery case",
+   "Operation": "Remove-ComplianceCaseMember",
+   "Description": "A user was removed as a member of an eDiscovery case."
+ },
+ {
+   "Friendly name": "Changed eDiscovery case membership",
+   "Operation": "Update-ComplianceCaseMember",
+   "Description": "The membership list of an eDiscovery case was changed. This activity is logged when all members are replaced with a group of new users. If a single member is added or removed, the Add-ComplianceCaseMember or Remove-ComplianceCaseMember operation is logged."
+ },
+ {
+   "Friendly name": "Created content search",
+   "Operation": "New-ComplianceSearch",
+   "Description": "A new content search was created."
+ },
+ {
+   "Friendly name": "Deleted content search",
+   "Operation": "Remove-ComplianceSearch",
+   "Description": "An existing content search was deleted."
+ },
+ {
+   "Friendly name": "Changed content search",
+   "Operation": "Set-ComplianceSearch",
+   "Description": "An existing content search was changed. Changes can include adding or removing content locations that are searched and editing the search query."
+ },
+ {
+   "Friendly name": "Started content search",
+   "Operation": "Start-ComplianceSearch",
+   "Description": "A content search was started. When you create or change a content search by using the compliance portal GUI, the search is automatically started. If you create or change a search by using the New-ComplianceSearch or Set-ComplianceSearch cmdlet, you have to run the Start-ComplianceSearch cmdlet to start the search."
+ },
+ {
+   "Friendly name": "Stopped content search",
+   "Operation": "Stop-ComplianceSearch",
+   "Description": "A content search that was running was stopped."
+ },
+ {
+   "Friendly name": "Created content search action",
+   "Operation": "New-ComplianceSearchAction",
+   "Description": "A content search action was created. Content search actions include previewing search results, exporting search results, preparing search results for analysis in eDiscovery (Premium), and permanently deleting items that match the search criteria of a content search."
+ },
+ {
+   "Friendly name": "Deleted content search action",
+   "Operation": "Remove-ComplianceSearchAction",
+   "Description": "A content search action was deleted."
+ },
+ {
+   "Friendly name": "Created search permissions filter",
+   "Operation": "New-ComplianceSecurityFilter",
+   "Description": "A search permissions filter was created."
+ },
+ {
+   "Friendly name": "Deleted search permissions filter",
+   "Operation": "Remove-ComplianceSecurityFilter",
+   "Description": "A search permissions filter was deleted."
+ },
+ {
+   "Friendly name": "Changed search permissions filter",
+   "Operation": "Set-ComplianceSecurityFilter",
+   "Description": "A search permissions filter was changed."
+ },
+ {
+   "Friendly name": "Created eDiscovery administrator",
+   "Operation": "Add-eDiscoveryCaseAdmin",
+   "Description": "A user was added as an eDiscovery Administrator in your organization."
+ },
+ {
+   "Friendly name": "Deleted eDiscovery administrator",
+   "Operation": "Remove-eDiscoveryCaseAdmin",
+   "Description": "An eDiscovery Administrator was deleted from your organization."
+ },
+ {
+   "Friendly name": "Changed eDiscovery administrator membership",
+   "Operation": "Update-eDiscoveryCaseAdmin",
+   "Description": "The list of eDiscovery Administrators in your organization was changed. This activity is logged when the list of eDiscovery Administrators is replaced with a group of new users. If a single user is added or removed, the Add-eDiscoveryCaseAdmin or Remove-eDiscoveryCaseAdmin operation is logged."
+ },
+ {
+   "Friendly name": "Get-ComplianceCase",
+   "Operation": "Get-ComplianceCase",
+   "Description": "This activity is logged when a user viewed a list of eDiscovery (Standard) or eDiscovery (Premium) cases. This activity is also logged when a user views a specific case in eDiscovery (Standard). When a user views a specific case, the audit record includes the identity of the case that was viewed. If the user only viewed a list of cases, the audit record doesn't contain a case identity."
+ },
+ {
+   "Friendly name": "Get-ComplianceSearch",
+   "Operation": "Get-ComplianceSearch",
+   "Description": "This activity is logged when a user viewed a list of Content searches or searches associated with an eDiscovery (Standard) case. This activity is also logged when a user views a specific Content search or views a specific search associated with an eDiscovery (Standard) case. When a user views a specific search, the audit record includes the identity of the search that was viewed. If the user only viewed a list of searches, the audit record doesn't contain a search identity."
+ },
+ {
+   "Friendly name": "Get-ComplianceSearchAction",
+   "Operation": "Get-ComplianceSearchAction",
+   "Description": "This activity is logged when a user viewed a list of compliance search actions (such as exports, previews, or purges) or actions associated with an eDiscovery (Standard) case. This activity is also logged when a user views a specific compliance search action (such as an export) or views a specific action associated with an eDiscovery (Standard) case. When a user views a search action, the audit record includes the identity of the search action that was viewed. If the user only viewed a list of actions, the audit record doesn't contain an action identity."
+ },
+ {
+   "Friendly name": "Property",
+   "Operation": "Description",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Case",
+   "Operation": "The identity (GUID) of the eDiscovery case that was created, changed, or deleted.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "ClientApplication",
+   "Operation": "eDiscovery cmdlet activities have a value of EMC for this property. This indicates the activity was performed by using the compliance portal GUI or running the cmdlet in PowerShell.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "ClientIP",
+   "Operation": "The IP address of the device that was used when the activity was logged. The IP address is displayed in either an IPv4 or IPv6 address format.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "ClientRequestId",
+   "Operation": "For eDiscovery activities, this property is typically blank.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "CmdletVersion",
+   "Operation": "The build number for the version of the compliance portal running in your organization.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "CreationTime",
+   "Operation": "The date and time in Coordinated Universal Time (UTC) when the eDiscovery activity was completed.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "EffectiveOrganization",
+   "Operation": "The name of the Microsoft  365 organization.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "ExchangeLocations",
+   "Operation": "The Exchange Online mailboxes that are included in a content search or placed on hold in an eDiscovery case.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Exclusions",
+   "Operation": "Mailbox or site locations that are excluded from a content search or a hold in an eDiscovery case.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "ExtendedProperties",
+   "Operation": "Additional properties from a content search, a content search action, or hold in an eDiscovery case, such as the object GUID and the corresponding cmdlet and cmdlet parameters that were used when the activity was performed.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Id",
+   "Operation": "The ID of the report entry. The ID uniquely identifies the audit log entry.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "NonPIIParameters",
+   "Operation": "A list of the parameters (without any values) that were used with the cmdlet identified in the Operation property. The parameters listed in this property are the same as those listed in the Parameters property.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "ObjectId",
+   "Operation": "The GUID or name of the object (for example, a Content search or an eDiscovery (Standard) case) that was created, accessed, changed, or deleted by the activity listed in the Operation property. This object is also identified in the Item column in the audit log search results.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "ObjectType",
+   "Operation": "The type of eDiscovery object that the user created, deleted, or modified; for example, a content search action (preview, export, or purge), an eDiscovery case, or a content search.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Operation",
+   "Operation": "The name of the operation that corresponds to the eDiscovery activity that was performed.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "OrganizationId",
+   "Operation": "The GUID for your Microsoft 365 organization.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Parameters",
+   "Operation": "The name and value for the parameters that were used with the corresponding cmdlet.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "PublicFolderLocations",
+   "Operation": "The public folder locations in Exchange Online that are included in a content search or placed on hold in an eDiscovery case.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Query",
+   "Operation": "The search query associated with the activity, such as a content search or a query-based hold.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "RecordType",
+   "Operation": "The type of operation indicated by the record. The value of 18 indicates an event related to an activity listed in the eDiscovery cmdlet activities section. A value of 24 indicates an event related to an activity listed in the eDiscovery activities section.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "ResultStatus",
+   "Operation": "Indicates whether the action (specified in the Operation property) was successful or not.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "SecurityComplianceCenterEventType",
+   "Operation": "Indicates that the activity was a compliance portal event. All eDiscovery activities have a value of 0 for this property.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "SharepointLocations",
+   "Operation": "The SharePoint Online sites that are included in a content search or placed on hold in an eDiscovery case.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "StartTime",
+   "Operation": "The date and time in Coordinated Universal Time (UTC) when the eDiscovery activity was started.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "UserId",
+   "Operation": "The user who performed the activity (specified in the Operation property) that resulted in the record being logged. Records for eDiscovery activity performed by system accounts (such as NT AUTHORITY\\SYSTEM) are also included in the audit log.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "UserKey",
+   "Operation": "An alternative ID for the user identified in the UserId property. For eDiscovery activities, the value for this property is typically the same as the UserId property.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "UserServicePlan",
+   "Operation": "The  subscription used by your organization. For eDiscovery activities, this property is typically blank.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "UserType",
+   "Operation": "The type of user that performed the operation. The following values indicate the user type.   0   A regular user. 2   An administrator in your organization. 3   A Microsoft datacenter administrator or datacenter system account. 4   A system account. 5   An application. 6   A service principal.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Version",
+   "Operation": "Indicates the version number of the activity (identified by the Operation property) that's logged.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Workload",
+   "Operation": "The service where the activity occurred. For eDiscovery activities, the value is SecurityComplianceCenter.",
+   "Description": ""
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Accessed mailbox items",
+   "Operation": "MailItemsAccessed",
+   "Description": "Messages were read or accessed in mailbox. Audit records for this activity are triggered in one of two ways: when a mail client (such as Outlook) performs a bind operation on messages or when mail protocols (such as Exchange ActiveSync or IMAP) sync items in a mail folder. Analyzing audit records for this activity is useful when investigating compromised email account."
+ },
+ {
+   "Friendly name": "Added delegate mailbox permissions",
+   "Operation": "Add-MailboxPermission",
+   "Description": "An administrator assigned the FullAccess mailbox permission to a user (known as a delegate) to another person's mailbox. The FullAccess permission allows the delegate to open the other person's mailbox, and read and manage the contents of the mailbox. The audit record for this activity is also generated when a system account in the Microsoft 365 service periodically performs maintenance tasks in behalf of your organization. A common task performed by a system account is updating the permissions for system mailboxes. For more information, see System accounts in Exchange mailbox audit records."
+ },
+ {
+   "Friendly name": "Added or removed user with delegate access to calendar folder",
+   "Operation": "UpdateCalendarDelegation",
+   "Description": "A user was added or removed as a delegate to the calendar of another user's mailbox. Calendar delegation gives someone else in the same organization permissions to manage the mailbox owner's calendar."
+ },
+ {
+   "Friendly name": "Added permissions to folder",
+   "Operation": "AddFolderPermissions",
+   "Description": "A folder permission was added. Folder permissions control which users in your organization can access folders in a mailbox and the messages located in those folders."
+ },
+ {
+   "Friendly name": "Copied messages to another folder",
+   "Operation": "Copy",
+   "Description": "A message was copied to another folder."
+ },
+ {
+   "Friendly name": "Created mailbox item",
+   "Operation": "Create",
+   "Description": "An item is created in the Calendar, Contacts, Notes, or Tasks folder in the mailbox. For example, a new meeting request is created. Creating, sending, or receiving a message isn't audited. Also, creating a mailbox folder isn't audited."
+ },
+ {
+   "Friendly name": "Created new inbox rule in Outlook web app",
+   "Operation": "New-InboxRule",
+   "Description": "A mailbox owner or other user with access to the mailbox created an inbox rule in the Outlook web app."
+ },
+ {
+   "Friendly name": "Deleted messages from Deleted Items folder",
+   "Operation": "SoftDelete",
+   "Description": "A message was permanently deleted or deleted from the Deleted Items folder. These items are moved to the Recoverable Items folder. Messages are also moved to the Recoverable Items folder when a user selects it and presses Shift+Delete."
+ },
+ {
+   "Friendly name": "Labeled message as a record",
+   "Operation": "ApplyRecordLabel",
+   "Description": "A message was classified as a record. Occurs when a retention label that classifies content as a record is manually or automatically applied to a message."
+ },
+ {
+   "Friendly name": "Moved messages to another folder",
+   "Operation": "Move",
+   "Description": "A message was moved to another folder."
+ },
+ {
+   "Friendly name": "Moved messages to Deleted Items folder",
+   "Operation": "MoveToDeletedItems",
+   "Description": "A message was deleted and moved to the Deleted Items folder."
+ },
+ {
+   "Friendly name": "Modified folder permission",
+   "Operation": "UpdateFolderPermissions",
+   "Description": "A folder permission was changed. Folder permissions control which users in your organization can access mailbox folders and the messages in the folder."
+ },
+ {
+   "Friendly name": "Modified inbox rule from Outlook web app",
+   "Operation": "Set-InboxRule",
+   "Description": "A mailbox owner or other user with access to the mailbox modified an inbox rule using the Outlook web app."
+ },
+ {
+   "Friendly name": "Purged messages from the mailbox",
+   "Operation": "HardDelete",
+   "Description": "A message was purged from the Recoverable Items folder (permanently deleted from the mailbox)."
+ },
+ {
+   "Friendly name": "Removed delegate mailbox permissions",
+   "Operation": "Remove-MailboxPermission",
+   "Description": "An administrator removed the FullAccess permission (that was assigned to a delegate) from a person's mailbox. After the FullAccess permission is removed, the delegate can't open the other person's mailbox or access any content in it."
+ },
+ {
+   "Friendly name": "Removed permissions from folder",
+   "Operation": "RemoveFolderPermissions",
+   "Description": "A folder permission was removed. Folder permissions control which users in your organization can access folders in a mailbox and the messages located in those folders."
+ },
+ {
+   "Friendly name": "Sent message",
+   "Operation": "Send",
+   "Description": "A message was sent, replied to or forwarded."
+ },
+ {
+   "Friendly name": "Sent message using Send As permissions",
+   "Operation": "SendAs",
+   "Description": "A message was sent using the SendAs permission. This means that another user sent the message as though it came from the mailbox owner."
+ },
+ {
+   "Friendly name": "Sent message using Send On Behalf permissions",
+   "Operation": "SendOnBehalf",
+   "Description": "A message was sent using the SendOnBehalf permission. This means that another user sent the message on behalf of the mailbox owner. The message indicates to the recipient whom the message was sent on behalf of and who actually sent the message."
+ },
+ {
+   "Friendly name": "Updated inbox rules from Outlook client",
+   "Operation": "UpdateInboxRules",
+   "Description": "A mailbox owner or other user with access to the mailbox created, modified, or removed an inbox rule by using the Outlook client."
+ },
+ {
+   "Friendly name": "Updated message",
+   "Operation": "Update",
+   "Description": "A message or its properties was changed."
+ },
+ {
+   "Friendly name": "User signed in to mailbox",
+   "Operation": "MailboxLogin",
+   "Description": "The user signed in to their mailbox."
+ },
+ {
+   "Friendly name": "Label message as a record",
+   "Operation": "Label message as a record",
+   "Description": "A user applied a retention label to an email message and that label is configured to mark the item as a record."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Accessed file",
+   "Operation": "FileAccessed",
+   "Description": "User or system account accesses a file. Once a user accesses a file, the FileAccessed event isn't logged again for the same user for same file for the next five minutes."
+ },
+ {
+   "Friendly name": "FileAccessedExtended",
+   "Operation": "FileAccessedExtended",
+   "Description": "This is related to the \"Accessed file\" (FileAccessed) activity. A FileAccessedExtended event is logged when the same person continually accesses a file for an extended period (up to 3 hours).  The purpose of logging FileAccessedExtended events is to reduce the number of FileAccessed events that are logged when a file is continually accessed. This helps reduce the noise of multiple FileAccessed records for what is essentially the same user activity, and lets you focus on the initial (and more important) FileAccessed event."
+ },
+ {
+   "Friendly name": "Changed retention label for a file",
+   "Operation": "ComplianceSettingChanged",
+   "Description": "A retention label was applied to or removed from a document. This event is triggered when a retention label is manually or automatically applied to a message."
+ },
+ {
+   "Friendly name": "Changed record status to locked",
+   "Operation": "LockRecord",
+   "Description": "The record status of a retention label that classifies a document as a record was locked. This means the document can't be modified or deleted. Only users assigned at least the contributor permission for a site can change the record status of a document."
+ },
+ {
+   "Friendly name": "Changed record status to unlocked",
+   "Operation": "UnlockRecord",
+   "Description": "The record status of a retention label that classifies a document as a record was unlocked. This means that the document can be modified or deleted. Only users assigned at least the contributor permission for a site can change the record status of a document."
+ },
+ {
+   "Friendly name": "Checked in file",
+   "Operation": "FileCheckedIn",
+   "Description": "User checks in a document that they checked out from a document library."
+ },
+ {
+   "Friendly name": "Checked out file",
+   "Operation": "FileCheckedOut",
+   "Description": "User checks out a document located in a document library. Users can check out and make changes to documents that have been shared with them."
+ },
+ {
+   "Friendly name": "Copied file",
+   "Operation": "FileCopied",
+   "Description": "User copies a document from a site. The copied file can be saved to another folder on the site."
+ },
+ {
+   "Friendly name": "Deleted file",
+   "Operation": "FileDeleted",
+   "Description": "User deletes a document from a site."
+ },
+ {
+   "Friendly name": "Deleted file from recycle bin",
+   "Operation": "FileDeletedFirstStageRecycleBin",
+   "Description": "User deletes a file from the recycle bin of a site."
+ },
+ {
+   "Friendly name": "Deleted file from second-stage recycle bin",
+   "Operation": "FileDeletedSecondStageRecycleBin",
+   "Description": "User deletes a file from the second-stage recycle bin of a site."
+ },
+ {
+   "Friendly name": "Deleted file marked as a record",
+   "Operation": "RecordDelete",
+   "Description": "A document or email that was marked as a record was deleted. An item is considered a record when a retention label that marks items as a record is applied to content."
+ },
+ {
+   "Friendly name": "Detected document sensitivity mismatch",
+   "Operation": "DocumentSensitivityMismatchDetected",
+   "Description": "User uploads a document to a site that's protected with a sensitivity label and the document has a higher priority sensitivity label than the sensitivity label applied to the site. For example, a document labeled Confidential is uploaded to a site labeled General.  This event isn't triggered if the document has a lower priority sensitivity label than the sensitivity label applied to the site. For example, a document labeled General is uploaded to a site labeled Confidential. For more information about sensitivity label priority, see Label priority (order matters)."
+ },
+ {
+   "Friendly name": "Detected malware in file",
+   "Operation": "FileMalwareDetected",
+   "Description": "SharePoint anti-virus engine detects malware in a file."
+ },
+ {
+   "Friendly name": "Discarded file checkout",
+   "Operation": "FileCheckOutDiscarded",
+   "Description": "User discards (or undoes) a checked out file. That means any changes they made to the file when it was checked out are discarded, and not saved to the version of the document in the document library."
+ },
+ {
+   "Friendly name": "Downloaded file",
+   "Operation": "FileDownloaded",
+   "Description": "User downloads a document from a site."
+ },
+ {
+   "Friendly name": "Modified file",
+   "Operation": "FileModified",
+   "Description": "User or system account modifies the content or the properties of a document on a site. The system waits five minutes before it logs another FileModified event when the same user modifies the content or properties of the same document."
+ },
+ {
+   "Friendly name": "(none)",
+   "Operation": "FileModifiedExtended",
+   "Description": "This is related to the \"Modified file\" (FileModified) activity. A FileModifiedExtended event is logged when the same person continually modifies a file for an extended period (up to 3 hours).  The purpose of logging FileModifiedExtended events is to reduce the number of FileModified events that are logged when a file is continually modified. This helps reduce the noise of multiple FileModified records for what is essentially the same user activity, and lets you focus on the initial (and more important) FileModified event."
+ },
+ {
+   "Friendly name": "Moved file",
+   "Operation": "FileMoved",
+   "Description": "User moves a document from its current location on a site to a new location."
+ },
+ {
+   "Friendly name": "(none)",
+   "Operation": "FilePreviewed",
+   "Description": "User previews files on a SharePoint or OneDrive for Business site. These events typically occur in high volumes based on a single activity, such as viewing an image gallery."
+ },
+ {
+   "Friendly name": "Performed search query",
+   "Operation": "SearchQueryPerformed",
+   "Description": "User or system account performs a search in SharePoint or OneDrive for Business. Some common scenarios where a service account performs a search query include applying an eDiscovery holds and retention policy to sites and OneDrive accounts, and autoapplying retention or sensitivity labels to site content. To enable logging for this activity, see Get started with auditing solutions."
+ },
+ {
+   "Friendly name": "Recycled a file",
+   "Operation": "FileRecycled",
+   "Description": "User moves a file into the SharePoint Recycle Bin."
+ },
+ {
+   "Friendly name": "Recycled a folder",
+   "Operation": "FolderRecycled",
+   "Description": "User moves a folder into the SharePoint Recycle Bin."
+ },
+ {
+   "Friendly name": "Recycled all minor versions of file",
+   "Operation": "FileVersionsAllMinorsRecycled",
+   "Description": "User deletes all minor versions from the version history of a file. The deleted versions are moved to the site's recycle bin."
+ },
+ {
+   "Friendly name": "Recycled all versions of file",
+   "Operation": "FileVersionsAllRecycled",
+   "Description": "User deletes all versions from the version history of a file. The deleted versions are moved to the site's recycle bin."
+ },
+ {
+   "Friendly name": "Recycled version of file",
+   "Operation": "FileVersionRecycled",
+   "Description": "User deletes a version from the version history of a file. The deleted version is moved to the site's recycle bin."
+ },
+ {
+   "Friendly name": "Renamed file",
+   "Operation": "FileRenamed",
+   "Description": "User renames a document."
+ },
+ {
+   "Friendly name": "Restored file",
+   "Operation": "FileRestored",
+   "Description": "User restores a document from the recycle bin of a site."
+ },
+ {
+   "Friendly name": "Uploaded file",
+   "Operation": "FileUploaded",
+   "Description": "User uploads a document to a folder on a site."
+ },
+ {
+   "Friendly name": "Viewed page",
+   "Operation": "PageViewed",
+   "Description": "User views a page on a site. This doesn't include using a Web browser to view files located in a document library. Once a user views a page, the PageViewed event isn't logged again for the same user for same page for the next five minutes."
+ },
+ {
+   "Friendly name": "(none)",
+   "Operation": "PageViewedExtended",
+   "Description": "This is related to the \"Viewed page\" (PageViewed) activity. A PageViewedExtended event is logged when the same person continually views a web page for an extended period (up to 3 hours).  The purpose of logging PageViewedExtended events is to reduce the number of PageViewed events that are logged when a page is continually viewed. This helps reduce the noise of multiple PageViewed records for what is essentially the same user activity, and lets you focus on the initial (and more important) PageViewed event."
+ },
+ {
+   "Friendly name": "View signaled by client",
+   "Operation": "ClientViewSignaled",
+   "Description": "A user's client (such as website or mobile app) has signaled that the indicated page has been viewed by the user. This activity is often logged following a PagePrefetched event for a page. NOTE: Because ClientViewSignaled events are signaled by the client, rather than the server, it's possible the event may not be logged by the server and therefore may not appear in the audit log. It's also possible that information in the audit record may not be trustworthy. However, because the user's identity is validated by the token used to create the signal, the user's identity listed in the corresponding audit record is accurate. The system waits five minutes before it logs the same event when the same user's client signals that the page has been viewed again by the user."
+ },
+ {
+   "Friendly name": "PagePrefetched",
+   "Operation": "PagePrefetched",
+   "Description": "A user's client (such as website or mobile app) has requested the indicated page to help improve performance if the user browses to it. This event is logged to indicate that the page content has been served to the user's client. This event isn't a definitive indication that the user navigated to the page.  When the page content is rendered by the client (as per the user's request) a ClientViewSignaled event should be generated. Not all clients support indicating a prefetch, and therefore some prefetched activities might instead be logged as PageViewed events."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Copied folder",
+   "Operation": "FolderCopied",
+   "Description": "User copies a folder from a site to another location in SharePoint or OneDrive for Business."
+ },
+ {
+   "Friendly name": "Created folder",
+   "Operation": "FolderCreated",
+   "Description": "User creates a folder on a site."
+ },
+ {
+   "Friendly name": "Deleted folder",
+   "Operation": "FolderDeleted",
+   "Description": "User deletes a folder from a site."
+ },
+ {
+   "Friendly name": "Deleted folder from recycle bin",
+   "Operation": "FolderDeletedFirstStageRecycleBin",
+   "Description": "User deletes a folder from the recycle bin on a site."
+ },
+ {
+   "Friendly name": "Deleted folder from second-stage recycle bin",
+   "Operation": "FolderDeletedSecondStageRecycleBin",
+   "Description": "User deletes a folder from the second-stage recycle bin on a site."
+ },
+ {
+   "Friendly name": "Modified folder",
+   "Operation": "FolderModified",
+   "Description": "User modifies a folder on a site. This includes changing the folder metadata, such as changing tags and properties."
+ },
+ {
+   "Friendly name": "Moved folder",
+   "Operation": "FolderMoved",
+   "Description": "User moves a folder to a different location on a site."
+ },
+ {
+   "Friendly name": "Renamed folder",
+   "Operation": "FolderRenamed",
+   "Description": "User renames a folder on a site."
+ },
+ {
+   "Friendly name": "Restored folder",
+   "Operation": "FolderRestored",
+   "Description": "User restores a deleted folder from the recycle bin on a site."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Changed AppBypassInformationBarrier setting for the tenant",
+   "Operation": "AppBypassInformationBarrier",
+   "Description": "A SharePoint or global administrator has changed apps access for SharePoint sites."
+ },
+ {
+   "Friendly name": "Applied information barrier mode to site",
+   "Operation": "SiteIBModeSet",
+   "Description": "A SharePoint or global administrator has applied a mode to the site."
+ },
+ {
+   "Friendly name": "Applied segments to site",
+   "Operation": "SiteIBSegmentsSet",
+   "Description": "A SharePoint, global administrator, or site owner added one or more information barriers segments to a site."
+ },
+ {
+   "Friendly name": "Changed information barrier mode of site",
+   "Operation": "SiteIBModeChanged",
+   "Description": "A SharePoint or global administrator has updated the mode of the site."
+ },
+ {
+   "Friendly name": "Changed segments of site",
+   "Operation": "SiteIBSegmentsChanged",
+   "Description": "A SharePoint or global administrator changed one or more information barriers segments for a site."
+ },
+ {
+   "Friendly name": "Disabled information barriers for SharePoint and OneDrive",
+   "Operation": "SPOIBIsDisabled",
+   "Description": "A SharePoint or global administrator has disabled information barriers for SharePoint and OneDrive in the organization."
+ },
+ {
+   "Friendly name": "Enabled information barriers for SharePoint and OneDrive",
+   "Operation": "SPOIBIsEnabled",
+   "Description": "A SharePoint or global administrator has disabled information barriers for SharePoint and OneDrive in the organization."
+ },
+ {
+   "Friendly name": "Information barriers insights report completed",
+   "Operation": "InformationBarriersInsightsReportCompleted",
+   "Description": "System completes build of the information barriers insights report."
+ },
+ {
+   "Friendly name": "Information barriers insights report OneDrive section queried",
+   "Operation": "InformationBarriersInsightsReportOneDriveSectionQueried",
+   "Description": "An administrator queries the information barriers insights report for OneDrive accounts."
+ },
+ {
+   "Friendly name": "Information barriers insights report scheduled",
+   "Operation": "InformationBarriersInsightsReportSchedule",
+   "Description": "An administrator schedules the information barriers insights report."
+ },
+ {
+   "Friendly name": "Information barriers insights report SharePoint section queried",
+   "Operation": "InformationBarriersInsightsReportSharePointSectionQueried",
+   "Description": "An administrator queries the information barriers insights report for Sharepoint sites."
+ },
+ {
+   "Friendly name": "Removed segment from site",
+   "Operation": "SiteIBSegmentsRemoved",
+   "Description": "A SharePoint or global administrator removed one or more information barriers segments from a site."
+ },
+ {
+   "Friendly name": "Friendly Name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Device configuration updated",
+   "Operation": "updateddeviceconfiguration",
+   "Description": "An action for a device managed by Cloud Update has been triggered. This includes triggering a rollback, resuming a rolled back device, or changing the update channel."
+ },
+ {
+   "Friendly name": "Profile configuration updated",
+   "Operation": "updatedprofileconfiguration",
+   "Description": "A Cloud Update profile's configuration has changed. This includes changes to the profile's state, set deadline, Update Validation enablement, and configured waves and wave delay."
+ },
+ {
+   "Friendly name": "Tenant configuration updated",
+   "Operation": "updatedtenantconfiguration",
+   "Description": "The Cloud Update's tenant-wide configuration has changed. This includes changing exclusions, exclusion windows, and generating a new Tenant Association Key (TAK)."
+ },
+ {
+   "Friendly name": "Friendly Name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Created policy configuration",
+   "Operation": "CreatedPolicyConfig",
+   "Description": "A new policy configuration was created."
+ },
+ {
+   "Friendly name": "Deleted policy configuration",
+   "Operation": "DeletedPolicyConfig",
+   "Description": "A policy configuration was deleted."
+ },
+ {
+   "Friendly name": "Updated policy configuration",
+   "Operation": "UpdatedPolicyConfig",
+   "Description": "An existing policy configuration was updated, for example by adding, changing, or removing policy settings, or by changing the policy configuration's name, description, or scope."
+ },
+ {
+   "Friendly name": "Updated policy configuration priority",
+   "Operation": "UpdatedPolicyConfigPriority",
+   "Description": "The priority of a policy configuration was changed."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Activated a Backup Policy",
+   "Operation": "BackupPolicyActivated",
+   "Description": "A Microsoft 365 Backup policy is activated from an inactive state."
+ },
+ {
+   "Friendly name": "Activated Draft Restore Task",
+   "Operation": "RestoreTaskActivated",
+   "Description": "A draft restore task for Microsoft 365 Backup is activated. It is a long running operation."
+ },
+ {
+   "Friendly name": "Backup Item Created",
+   "Operation": "BackupItemAdded",
+   "Description": "One or more backup items are added to a Microsoft 365 Backup policy."
+ },
+ {
+   "Friendly name": "Backup Item Removed",
+   "Operation": "BackupItemRemoved",
+   "Description": "One or more backup items is/are removed from a Microsoft 365 Backup policy."
+ },
+ {
+   "Friendly name": "Completed Restore Task",
+   "Operation": "RestoreTaskCompleted",
+   "Description": "A restore task is completed in Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Created Draft Restore Task",
+   "Operation": "DraftRestoreTaskCreated",
+   "Description": "A restore task is created in Microsoft 365 Backup. By default, the restore task is created as draft."
+ },
+ {
+   "Friendly name": "Created new Backup policy",
+   "Operation": "NewBackupPolicyCreated",
+   "Description": "A new Microsoft 365 Backup policy has been created by a Global Admin. By default, a backup policy is created in an inactive state."
+ },
+ {
+   "Friendly name": "Deleted a Backup Policy",
+   "Operation": "BackupPolicyDeleted",
+   "Description": "A Microsoft 365 Backup policy is deleted."
+ },
+ {
+   "Friendly name": "Deleted Draft Restore Task",
+   "Operation": "DraftRestoreTaskDeleted",
+   "Description": "A draft restore task is deleted in Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Edited a Backup Policy",
+   "Operation": "BackupPolicyEdited",
+   "Description": "A Microsoft 365 Backup policy is updated. Backup policies are updated by any of the following actions: 1. Renaming the policy.2. Add one or more protection units.3. Removing one or more protection units."
+ },
+ {
+   "Friendly name": "Edited Draft Restore Task",
+   "Operation": "DraftRestoreTaskEdited",
+   "Description": "A draft restore task is edited in Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Paused a Backup Policy",
+   "Operation": "BackupPolicyPaused",
+   "Description": "A Microsoft 365 Backup policy is paused from active state."
+ },
+ {
+   "Friendly name": "Programmatically got Backup Item",
+   "Operation": "GetBackupItem",
+   "Description": "User requests the protection unit backed up using Microsoft 365 Backup programmatically."
+ },
+ {
+   "Friendly name": "Programmatically got Details of Backup Policy",
+   "Operation": "ViewBackupPolicyDetails",
+   "Description": "Details of a Microsoft 365 Backup policy are accessed programmatically."
+ },
+ {
+   "Friendly name": "Programmatically got Details of Restore Task",
+   "Operation": "GetRestoreTaskDetails",
+   "Description": "A user  requests details of restore task by its identifier in Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Programmatically got list of all Backup Policies",
+   "Operation": "ListAllBackupPolicies",
+   "Description": "A user programmatically gets the list of all backup policies backed up using Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Programmatically got list of Backup Items in Backup Policies",
+   "Operation": "ListAllBackupItemsInPolicies",
+   "Description": "A list of all protection units present in a backup policy in Microsoft 365 Backup is requested programmatically."
+ },
+ {
+   "Friendly name": "Programmatically got list of Backup Items in Tenant",
+   "Operation": "ListAllBackupItemsInTenant",
+   "Description": "A user programmatically gets list of all protection units in the organization backed up using Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Programmatically got list of Backup Items in Workload",
+   "Operation": "ListAllBackupItemsInWorkload",
+   "Description": "A user programmatically gets list of all protection units in workload (SharePoint, OneDrive, or Exchange) backed up using Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Programmatically got list of Restore Items in Restore Task",
+   "Operation": "GetAllRestoreArtifactsInTask",
+   "Description": "A user programmatically gets all artifacts in a restore task in Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Programmatically got list of Restore Points",
+   "Operation": "ListAllRestorePoints",
+   "Description": "A user programmatically gets all restore points in Microsoft 365 Backup. Restore Points represent the timestamp when an artifact is protected (per Protection Policy). Only Global Admins have access."
+ },
+ {
+   "Friendly name": "Programmatically got list of Restore Tasks",
+   "Operation": "ListAllRestoreTasks",
+   "Description": "A user programmatically gets the list of existing restore sessions in Microsoft 365 Backup. This includes the restore session created for every service type enrolled in the organization."
+ },
+ {
+   "Friendly name": "Restore item restoration complete",
+   "Operation": "BackupItemRestoreCompleted",
+   "Description": "The restoration of an item backed up by Microsoft 365 Backup is completed."
+ },
+ {
+   "Friendly name": "Restore item restoration triggered",
+   "Operation": "BackupItemRestoreTriggered",
+   "Description": "Restore is triggered for an item backed up with Microsoft 365 Backup."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Downloaded offboarding package",
+   "Operation": "DownloadOffboardingPkg",
+   "Description": "Downloaded the package used to remove devices from Defender for Endpoint."
+ },
+ {
+   "Friendly name": "Downloaded onboarding package",
+   "Operation": "DownloadOnboardingPkg",
+   "Description": "Downloaded the package used to onboard devices to Defender for Endpoint."
+ },
+ {
+   "Friendly name": "Changed data retention",
+   "Operation": "ChangeDataRetention",
+   "Description": "Edited the data retention settings for Defender for Endpoint."
+ },
+ {
+   "Friendly name": "Set advanced features",
+   "Operation": "SetAdvancedFeatures",
+   "Description": "Changed advanced features in Defender for Endpoint, enabling more precise controls during an incident. Only settings for advanced features that are generally available are logged in the Microsoft 365 audit log."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added indicator",
+   "Operation": "AddIndicator",
+   "Description": "Created a new Indicator of compromise you can use to track attacks and events."
+ },
+ {
+   "Friendly name": "Edited indicator",
+   "Operation": "EditIndicator",
+   "Description": "Edited an Indicator of compromise."
+ },
+ {
+   "Friendly name": "Deleted indicator",
+   "Operation": "DeleteIndicator",
+   "Description": "Removed an Indicator of compromise."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Collected investigation package",
+   "Operation": "CollectInvestigationPackage",
+   "Description": "Collected information about a device that's used to understand attack tools and techniques."
+ },
+ {
+   "Friendly name": "Ran Antivirus scan",
+   "Operation": "RunAntiVirusScan",
+   "Description": "Ran Microsoft Defender Antivirus scan on a device."
+ },
+ {
+   "Friendly name": "Restricted app execution",
+   "Operation": "RestrictAppExecution",
+   "Description": "Prevent a malicious app from running."
+ },
+ {
+   "Friendly name": "Removed app restrictions",
+   "Operation": "RemoveAppRestrictions",
+   "Description": "Allow an app to run."
+ },
+ {
+   "Friendly name": "Isolated device",
+   "Operation": "IsolateDevice",
+   "Description": "Isolated a device from the network, helping prevent attacks from spreading."
+ },
+ {
+   "Friendly name": "Released from isolation",
+   "Operation": "ReleaseFromIsolation",
+   "Description": "Added an isolated device back onto the network."
+ },
+ {
+   "Friendly name": "Stopped and quarantined file",
+   "Operation": "StopAndQuarantineFile",
+   "Description": "Quarantined a suspicious file for further analysis."
+ },
+ {
+   "Friendly name": "Downloaded file",
+   "Operation": "DownloadFile",
+   "Description": "Downloaded a suspicious file for further investigation."
+ },
+ {
+   "Friendly name": "Offboarded device",
+   "Operation": "DeviceOffBoarding",
+   "Description": "Removed a device from Defender for Endpoint."
+ },
+ {
+   "Friendly name": "Ran Live response API",
+   "Operation": "RunLiveResponseApi",
+   "Description": "Opened a Live response session via an API call, opening a remote shell into a device."
+ },
+ {
+   "Friendly name": "Collected Logs",
+   "Operation": "LogsCollection",
+   "Description": "Collected log information about Defender for Endpoint."
+ },
+ {
+   "Friendly name": "Ran get Live response file link",
+   "Operation": "LiveResponseGetFile",
+   "Description": "Opened a Live response session, opening a remote shell into a device."
+ },
+ {
+   "Friendly name": "Ran Live response session",
+   "Operation": "RunLiveResponseSession",
+   "Description": "Ran a Live response session, opening a remote shell into a device."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "AddRole",
+   "Operation": "Added role",
+   "Description": "Added new security role and permissions."
+ },
+ {
+   "Friendly name": "EditRole",
+   "Operation": "Edited role",
+   "Description": "Edited security roles and permissions."
+ },
+ {
+   "Friendly name": "DeleteRole",
+   "Operation": "Deleted role",
+   "Description": "Removed security roles and permissions."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Defender Experts analyst permission created",
+   "Operation": "DefenderExpertsAnalystPermissionCreated",
+   "Description": "An administrator granted one or more role permissions to Defender Experts analysts to investigate incidents or remediate threats."
+ },
+ {
+   "Friendly name": "Defender Experts analyst permission modified",
+   "Operation": "DefenderExpertsAnalystPermissionModified",
+   "Description": "An administrator modified role permissions for Defender Experts analysts to investigate incidents or remediate threats."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Updated entity tags",
+   "Operation": "TaggingConfigurationUpdated",
+   "Description": "A tag was added or removed from an entity."
+ },
+ {
+   "Friendly name": "Added exclusions configuration",
+   "Operation": "ExclusionConfigurationAdded",
+   "Description": "A global exclusion was added for an alert or for an entity."
+ },
+ {
+   "Friendly name": "Updated exclusions configuration",
+   "Operation": "ExclusionConfigurationUpdated",
+   "Description": "A global exclusion was updated for an alert or for an entity."
+ },
+ {
+   "Friendly name": "Deleted exclusions configuration",
+   "Operation": "ExclusionConfigurationDeleted",
+   "Description": "A global exclusion was deleted for an alert or for an entity."
+ },
+ {
+   "Friendly name": "Updated alert threshold configuration",
+   "Operation": "WorkspaceAlertThresholdLevelUpdated",
+   "Description": "The alerts thresholds configuration was updated."
+ },
+ {
+   "Friendly name": "Downloaded security alert Excel",
+   "Operation": "AlertExcelDownloaded",
+   "Description": "The detailed Excel file of an alert was downloaded."
+ },
+ {
+   "Friendly name": "Added remediation action",
+   "Operation": "RemediationActionAdded",
+   "Description": "A remediation action was added to the queue."
+ },
+ {
+   "Friendly name": "Updated remediation action",
+   "Operation": "RemediationActionUpdated",
+   "Description": "A remediation action was completed."
+ },
+ {
+   "Friendly name": "Updated sensor configuration",
+   "Operation": "SensorConfigurationUpdated",
+   "Description": "A sensor's configuration was updated."
+ },
+ {
+   "Friendly name": "Added sensor",
+   "Operation": "SensorCreated",
+   "Description": "A new sensor was added."
+ },
+ {
+   "Friendly name": "Removed sensor",
+   "Operation": "SensorDeleted",
+   "Description": "A sensor was deleted."
+ },
+ {
+   "Friendly name": "Retrieved sensor deployment key",
+   "Operation": "SensorDeploymentAccessKeyReceived",
+   "Description": "The sensors access key was retrieved."
+ },
+ {
+   "Friendly name": "Regenerated sensor deployment key",
+   "Operation": "SensorDeploymentAccessKeyUpdated",
+   "Description": "The sensors access key was regenerated."
+ },
+ {
+   "Friendly name": "Updated sensors activation mode",
+   "Operation": "SensorActivationMethodConfigurationUpdated",
+   "Description": "The sensors activation mode was modified."
+ },
+ {
+   "Friendly name": "Downloaded Domain Controller coverage Excel",
+   "Operation": "DomainControllerCoverageExcelDownloaded",
+   "Description": "The Domain Controller coverage Excel file was downloaded."
+ },
+ {
+   "Friendly name": "Updated directory services account configuration",
+   "Operation": "DirectoryServicesAccountConfigurationUpdated",
+   "Description": "The Directory services accounts set was modified."
+ },
+ {
+   "Friendly name": "Updated remediation action configuration",
+   "Operation": "RemediationActionConfigurationUpdated",
+   "Description": "The Manage action accounts set was modified."
+ },
+ {
+   "Friendly name": "Updated entity remediation configuration",
+   "Operation": "EntityRemediatorConfigurationUpdated",
+   "Description": "The Manage action accounts mode was modified."
+ },
+ {
+   "Friendly name": "Updated health issue",
+   "Operation": "MonitoringAlertUpdated",
+   "Description": "A health issue was modified."
+ },
+ {
+   "Friendly name": "Downloaded report",
+   "Operation": "ReportDownloaded",
+   "Description": "A report was downloaded."
+ },
+ {
+   "Friendly name": "Updated reporter configuration",
+   "Operation": "ReporterConfigurationUpdated",
+   "Description": "A report's scheduling was modified."
+ },
+ {
+   "Friendly name": "Updated syslog forwarding configuration",
+   "Operation": "SyslogServiceConfigurationUpdated",
+   "Description": "The syslog forwarding configuration was modified."
+ },
+ {
+   "Friendly name": "Updated security notification configuration",
+   "Operation": "NotificationConfigurationUpdated",
+   "Description": "The security alerts or health issues notifications configuration was modified."
+ },
+ {
+   "Friendly name": "Added alert notification recipient",
+   "Operation": "AlertNotificationsRecipientAdded",
+   "Description": "A recipient was added to the security alerts notification configuration."
+ },
+ {
+   "Friendly name": "Deleted alert notification recipient",
+   "Operation": "AlertNotificationsRecipientDeleted",
+   "Description": "A recipient was removed from the security alerts notification configuration."
+ },
+ {
+   "Friendly name": "Added health issues notification recipient",
+   "Operation": "MonitoringAlertNotificationRecipientAdded",
+   "Description": "A recipient was added to the health issues notification configuration."
+ },
+ {
+   "Friendly name": "Deleted health issues notification recipient",
+   "Operation": "MonitoringAlertNotificationRecipientDeleted",
+   "Description": "A recipient was removed from the heath issues notification configuration."
+ },
+ {
+   "Friendly name": "Updated VPN configuration",
+   "Operation": "VpnConfigurationUpdated",
+   "Description": "The VPN (radius accounting) configuration was modified."
+ },
+ {
+   "Friendly name": "Updated Unified RBAC configuration",
+   "Operation": "URbacAuthorizationStatusChanged",
+   "Description": "The Unified Role Based Access Control configuration was modified."
+ },
+ {
+   "Friendly name": "Created workspace",
+   "Operation": "WorkspaceCreated",
+   "Description": "The workspace was created."
+ },
+ {
+   "Friendly name": "Deleted workspace",
+   "Operation": "WorkspaceDeleted",
+   "Description": "The workspace was deleted."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Created custom detection rule",
+   "Operation": "CreateCustomDetection",
+   "Description": "A new custom detection rule was created."
+ },
+ {
+   "Friendly name": "Edited custom detection rule",
+   "Operation": "EditCustomDetection",
+   "Description": "A custom detection rule was modified."
+ },
+ {
+   "Friendly name": "Changed custom detection rule status",
+   "Operation": "ChangeCustomDetectionRuleStatus",
+   "Description": "A custom detection rule was turned off or on."
+ },
+ {
+   "Friendly name": "Ran custom detection rule",
+   "Operation": "RunCustomDetection",
+   "Description": "A custom detection rule was manually run."
+ },
+ {
+   "Friendly name": "Deleted custom detection rule",
+   "Operation": "DeleteCustomDetection",
+   "Description": "A custom detection rule was removed."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added comment to incident",
+   "Operation": "AddCommentToIncident.",
+   "Description": "Added comment to incident."
+ },
+ {
+   "Friendly name": "Assigned user to incident",
+   "Operation": "AssignUserToIncident",
+   "Description": "Assigned user to incident."
+ },
+ {
+   "Friendly name": "Unassigned user to incident",
+   "Operation": "UnAssignUserFromIncident",
+   "Description": "Unassigned user to incident."
+ },
+ {
+   "Friendly name": "Updated incidents status",
+   "Operation": "UpdateIncidentStatus",
+   "Description": "Updated incidents status."
+ },
+ {
+   "Friendly name": "Edit incident classification",
+   "Operation": "EditIncidentClassification",
+   "Description": "Edit incident classification."
+ },
+ {
+   "Friendly name": "Added tags to incident",
+   "Operation": "AddTagsToIncident",
+   "Description": "Added tags to incident."
+ },
+ {
+   "Friendly name": "Removed tags from incident",
+   "Operation": "RemoveTagsFromIncident",
+   "Description": "Removed tags from incident."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Created suppression rule",
+   "Operation": "CreateSuppressionRule",
+   "Description": "Created alert suppression rule."
+ },
+ {
+   "Friendly name": "Edited suppression rule",
+   "Operation": "EditSuppressionRule",
+   "Description": "Deleted alert suppression rule."
+ },
+ {
+   "Friendly name": "Enabled suppression rule",
+   "Operation": "EnableSuppressionRule",
+   "Description": "Enabled alert suppression rule."
+ },
+ {
+   "Friendly name": "Disabled suppression rule",
+   "Operation": "DisableSuppressionRule",
+   "Description": "Disabled alert suppression rule."
+ },
+ {
+   "Friendly name": "Deleted suppression rule",
+   "Operation": "DeleteSuppressionRule",
+   "Description": "Deleted alert suppression rule."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added group",
+   "Operation": "Add group.",
+   "Description": "A group was created."
+ },
+ {
+   "Friendly name": "Added member to group",
+   "Operation": "Add member to group.",
+   "Description": "A member was added to a group."
+ },
+ {
+   "Friendly name": "Deleted group",
+   "Operation": "Delete group.",
+   "Description": "A group was deleted."
+ },
+ {
+   "Friendly name": "Removed member from group",
+   "Operation": "Remove member from group.",
+   "Description": "A member was removed from a group."
+ },
+ {
+   "Friendly name": "Updated group",
+   "Operation": "Update group.",
+   "Description": "A property of a group was changed."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Created comment",
+   "Operation": "CreateComment",
+   "Description": "Form owner adds comment or score to a quiz."
+ },
+ {
+   "Friendly name": "Created form",
+   "Operation": "CreateForm",
+   "Description": "Form owner creates a new form. Property DataMode:string indicates the current form is set to sync with a new or existing Excel workbook if the property value equals DataSync. Property ExcelWorkbookLink:string indicates the associated Excel workbook ID of the current form."
+ },
+ {
+   "Friendly name": "Edited form",
+   "Operation": "EditForm",
+   "Description": "Form owner edits a form such as creating, removing, or editing a question. The property EditOperation:string indicates the edit operation name. The possible operations are:- CreateQuestion- CreateQuestionChoice - DeleteQuestion - DeleteQuestionChoice - DeleteFormImage - DeleteQuestionImage - UpdateQuestion - UpdateQuestionChoice - UploadFormImage/Bing/Onedrive - UploadQuestionImage - ChangeTheme FormImage includes any place within Forms that user can upload an image, such as in a query or as a background theme."
+ },
+ {
+   "Friendly name": "Moved form",
+   "Operation": "MoveForm",
+   "Description": "Form owner moves a form. Property DestinationUserId:string indicates the user ID of the person who moved the form. Property NewFormId:string is the new ID for the newly copied form. Property IsDelegateAccess:boolean indicates the current form move action is performed through the admin delegate page."
+ },
+ {
+   "Friendly name": "Deleted form",
+   "Operation": "DeleteForm",
+   "Description": "Form owner deletes a form. This includes SoftDelete (delete option used and form moved to recycle bin) and HardDelete (Recycle bin is emptied)."
+ },
+ {
+   "Friendly name": "Viewed form (design time)",
+   "Operation": "ViewForm",
+   "Description": "Form owner opens an existing form for editing. Property AccessDenied:boolean indicates access of current form is denied due to permission check. Property FromSummaryLink:boolean indicates current request comes from the summary link page."
+ },
+ {
+   "Friendly name": "Previewed form",
+   "Operation": "PreviewForm",
+   "Description": "Form owner previews a form using the Preview function."
+ },
+ {
+   "Friendly name": "Exported form",
+   "Operation": "ExportForm",
+   "Description": "Form owner exports results to Excel. Property ExportFormat:string indicates if the Excel file is Download or Online."
+ },
+ {
+   "Friendly name": "Allowed share form for copy",
+   "Operation": "AllowShareFormForCopy",
+   "Description": "Form owner creates a template link to share the form with other users. This event is logged when the form owner selects to generate template URL."
+ },
+ {
+   "Friendly name": "Disallowed share form for copy",
+   "Operation": "DisallowShareFormForCopy",
+   "Description": "Form owner deletes template link."
+ },
+ {
+   "Friendly name": "Added form coauthor",
+   "Operation": "AddFormCoauthor",
+   "Description": "A user uses a collaboration link to help design for/view responses. This event is logged when a user uses a collab URL (not when collab URL is first generated)."
+ },
+ {
+   "Friendly name": "Removed form coauthor",
+   "Operation": "RemoveFormCoauthor",
+   "Description": "Form owner deletes a collaboration link."
+ },
+ {
+   "Friendly name": "Viewed response page",
+   "Operation": "ViewRuntimeForm",
+   "Description": "User has opened a response page to view. This event is logged regardless of whether the user submits a response or not."
+ },
+ {
+   "Friendly name": "Created response",
+   "Operation": "CreateResponse",
+   "Description": "Similar to receiving a new response. A user has submitted a response to a form. Property ResponseId:string and Property ResponderId:string indicates which result is being viewed. For an anonymous responder, the ResponderId property is null."
+ },
+ {
+   "Friendly name": "Updated response",
+   "Operation": "UpdateResponse",
+   "Description": "Form owner has updated a comment or score on a quiz. Property ResponseId:string and Property ResponderId:string indicates which result is being viewed. For an anonymous responder, the ResponderId property is null."
+ },
+ {
+   "Friendly name": "Deleted all responses",
+   "Operation": "DeleteAllResponses",
+   "Description": "Form owner deletes all response data."
+ },
+ {
+   "Friendly name": "Deleted Response",
+   "Operation": "DeleteResponse",
+   "Description": "Form owner deletes one response. Property ResponseId:string indicates the response being deleted."
+ },
+ {
+   "Friendly name": "Viewed responses",
+   "Operation": "ViewResponses",
+   "Description": "Form owner views the aggregated list of responses. Property ViewType:string indicates whether form owner is viewing Detail or Aggregate"
+ },
+ {
+   "Friendly name": "Viewed response",
+   "Operation": "ViewResponse",
+   "Description": "Form owner views a particular response. Property ResponseId:string and Property ResponderId:string indicates which result is being viewed. For an anonymous responder, the ResponderId property is null."
+ },
+ {
+   "Friendly name": "Created summary link",
+   "Operation": "GetSummaryLink",
+   "Description": "Form owner creates summary results link to share results."
+ },
+ {
+   "Friendly name": "Deleted summary link",
+   "Operation": "DeleteSummaryLink",
+   "Description": "Form owner deletes summary results link."
+ },
+ {
+   "Friendly name": "Updated form phishing status",
+   "Operation": "UpdatePhishingStatus",
+   "Description": "This event is logged whenever the detailed value for the internal security status was changed, regardless of whether this changed the final security state (for example, form is now Closed or Opened). This means you may see duplicate events without a final security state change. The possible status values for this event are:- Take Down - Take Down by Admin - Admin Unblocked - Auto Blocked - Auto Unblocked - Customer Reported - Reset Customer Reported"
+ },
+ {
+   "Friendly name": "Updated user phishing status",
+   "Operation": "UpdateUserPhishingStatus",
+   "Description": "This event is logged whenever the value for the user security status was changed. The value of the user status in the audit record is Confirmed as Phisher when the user created a phishing form that was taken down by the Microsoft Online safety team. If an admin unblocks the user, the value of the user's status is set to Reset as Normal User."
+ },
+ {
+   "Friendly name": "Sent Forms Pro invitation",
+   "Operation": "ProInvitation",
+   "Description": "User selects to activate a Pro trial."
+ },
+ {
+   "Friendly name": "Updated form setting",
+   "Operation": "UpdateFormSetting",
+   "Description": "Form owner updates one or multiple form settings. Property FormSettingName:string indicates updated sensitive settings' name. Property NewFormSettings:string indicates updated settings' name and new value. Property thankYouMessageContainsLink:boolean indicates updated thank-you message contains a URL link."
+ },
+ {
+   "Friendly name": "Updated user setting",
+   "Operation": "UpdateUserSetting",
+   "Description": "Form owner updates a user setting. Property UserSettingName:string indicates the setting's name and new value"
+ },
+ {
+   "Friendly name": "Listed forms",
+   "Operation": "ListForms",
+   "Description": "Form owner is viewing a list of forms. Property ViewType:string indicates which view the form owner is looking at: All Forms, Shared with Me, or Group Forms"
+ },
+ {
+   "Friendly name": "Submitted response",
+   "Operation": "SubmitResponse",
+   "Description": "A user submits a response to a form. Property IsInternalForm:boolean indicates if the responder is within the same organization as the form owner."
+ },
+ {
+   "Friendly name": "Enabled anyone can respond setting",
+   "Operation": "AllowAnonymousResponse",
+   "Description": "Form owner turns on the setting allowing any one to respond to the form."
+ },
+ {
+   "Friendly name": "Disabled anyone can respond setting",
+   "Operation": "DisallowAnonymousResponse",
+   "Description": "Form owner turns off the setting allowing any one to respond to the form."
+ },
+ {
+   "Friendly name": "Enabled specific people can respond setting",
+   "Operation": "EnableSpecificResponse",
+   "Description": "Form owner turns on the setting allowing only specific people or specific groups in the current organization to respond to the form."
+ },
+ {
+   "Friendly name": "Disabled specific people can respond setting",
+   "Operation": "DisableSpecificResponse",
+   "Description": "Form owner turns off the setting allowing only specific people or specific groups in the current organization to respond to the form."
+ },
+ {
+   "Friendly name": "Added specific responder",
+   "Operation": "AddSpecificResponder",
+   "Description": "Form owner adds a new user or group to the specific responders list."
+ },
+ {
+   "Friendly name": "Removed specific responder",
+   "Operation": "RemoveSpecificResponder",
+   "Description": "Form owner removes a user or group from the specific responders list."
+ },
+ {
+   "Friendly name": "Disabled collaboration",
+   "Operation": "DisableCollaboration",
+   "Description": "Form owner turns off the setting of collaboration on the form."
+ },
+ {
+   "Friendly name": "Enabled Office 365 work or school account collaboration",
+   "Operation": "EnableWorkOrSchoolCollaboration",
+   "Description": "Form owner turns on the setting allowing users with a Microsoft 365 work or school account to view and edit the form."
+ },
+ {
+   "Friendly name": "Enabled people in my organization collaboration",
+   "Operation": "EnableSameOrgCollaboration",
+   "Description": "Form owner turns on the setting allowing users in the current organization to view and edit the form."
+ },
+ {
+   "Friendly name": "Enabled specific people collaboration",
+   "Operation": "EnableSpecificCollaboaration",
+   "Description": "Form owner turns on the setting allowing only specific people or specific groups in the current organization to view and edit the form."
+ },
+ {
+   "Friendly name": "Connected to Excel workbook",
+   "Operation": "ConnectToExcelWorkbook",
+   "Description": "Connected the form to an Excel workbook. Property ExcelWorkbookLink:string indicates the associated Excel workbook ID of the current form."
+ },
+ {
+   "Friendly name": "Created a collection",
+   "Operation": "CollectionCreated",
+   "Description": "Form owner created a collection."
+ },
+ {
+   "Friendly name": "Updated a collection",
+   "Operation": "CollectionUpdated",
+   "Description": "Form owner updated a collection property."
+ },
+ {
+   "Friendly name": "Deleted collection from the Recycle Bin",
+   "Operation": "CollectionHardDeleted",
+   "Description": "Form owner hard-deleted a collection from the Recycle Bin."
+ },
+ {
+   "Friendly name": "Moved collection to the Recycle Bin",
+   "Operation": "CollectionSoftDeleted",
+   "Description": "Form owner moved a collection to the Recycle Bin."
+ },
+ {
+   "Friendly name": "Renamed a collection",
+   "Operation": "CollectionRenamed",
+   "Description": "Form owner changed the name of a collection."
+ },
+ {
+   "Friendly name": "Moved a form into collection",
+   "Operation": "MovedFormIntoCollection",
+   "Description": "Form owner moved a form into a collection."
+ },
+ {
+   "Friendly name": "Moved a form out of collection",
+   "Operation": "MovedFormOutofCollection",
+   "Description": "Form owner moved a form out of a collection."
+ },
+ {
+   "Friendly name": "Activity type",
+   "Operation": "Internal or external user",
+   "Description": "User ID that's logged"
+ },
+ {
+   "Friendly name": "Coauthoring activities",
+   "Operation": "Internal",
+   "Description": "UPN"
+ },
+ {
+   "Friendly name": "Coauthoring activities",
+   "Operation": "External",
+   "Description": "UPN"
+ },
+ {
+   "Friendly name": "Coauthoring activities",
+   "Operation": "External",
+   "Description": "urn:forms:coauthor#a0b1c2d3@forms.office.com(The second part of the ID is a hash, which will differ for different users)"
+ },
+ {
+   "Friendly name": "Response activities",
+   "Operation": "External",
+   "Description": "UPN"
+ },
+ {
+   "Friendly name": "Response activities",
+   "Operation": "External",
+   "Description": "urn:forms:external#a0b1c2d3@forms.office.com(The second part of the User ID is a hash, which will differ for different users)"
+ },
+ {
+   "Friendly name": "Response activities",
+   "Operation": "Anonymous",
+   "Description": "urn:forms:anonymous#a0b1c2d3@forms.office.com(The second part of the User ID is a hash, which will differ for different users)"
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Approved or denied an app",
+   "Operation": "ConsentModificationRequest",
+   "Description": "A user performed a consent modification request."
+ },
+ {
+   "Friendly name": "Extraction ran",
+   "Operation": "DataAccessRequestOperation",
+   "Description": "A user performed an extraction. Partner datasets and ISV runs are excluded."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Read a plan",
+   "Operation": "PlanRead",
+   "Description": "A plan is read by a user or an app. If the read operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, ContainerType indicates ContainerType.Invalid and ContainerId indicates null."
+ },
+ {
+   "Friendly name": "Created a plan",
+   "Operation": "PlanCreated",
+   "Description": "A plan is created by a user or an app. If the create operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, ObjectId indicates null, ContainerType indicates ContainerType.Invalid and ContainerId indicates null."
+ },
+ {
+   "Friendly name": "Modified a plan",
+   "Operation": "PlanModified",
+   "Description": "A plan is modified by a user or an app."
+ },
+ {
+   "Friendly name": "Deleted a plan",
+   "Operation": "PlanDeleted",
+   "Description": "A plan is deleted by a user or an app."
+ },
+ {
+   "Friendly name": "Copied a plan",
+   "Operation": "PlanCopied",
+   "Description": "A plan is copied by a user or an app. If the copy operation is a ResultStatus.Failure or ResultStatus.Failure, newPlanId indicates null, newContainerType indicates ContainerType.Invalid, and newContainerId indicates null."
+ },
+ {
+   "Friendly name": "Read a task",
+   "Operation": "TaskRead",
+   "Description": "A task is read by a user or an app. If the read operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, PlanId indicates null."
+ },
+ {
+   "Friendly name": "Created a task",
+   "Operation": "TaskCreated",
+   "Description": "A task is created by a user or an app. If the create operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, ObjectId indicates null and PlanId indicates null."
+ },
+ {
+   "Friendly name": "Modified a task",
+   "Operation": "TaskModified",
+   "Description": "A task is modified by a user or an app."
+ },
+ {
+   "Friendly name": "Deleted a task",
+   "Operation": "TaskDeleted",
+   "Description": "A task is deleted by a user or an app."
+ },
+ {
+   "Friendly name": "Assigned a task",
+   "Operation": "TaskAssigned",
+   "Description": "A task's assignee is modified by a user or an app. This can be an unassigned task getting assigned or an assigned task has a new assignee."
+ },
+ {
+   "Friendly name": "Completed a task",
+   "Operation": "TaskCompleted",
+   "Description": "A task is marked completed by a user or an app."
+ },
+ {
+   "Friendly name": "Created a roster",
+   "Operation": "RosterCreated",
+   "Description": "A roster is created by a user or an app. If the create operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, ObjectId indicates null, MemberIds indicates an empty string."
+ },
+ {
+   "Friendly name": "Deleted a roster",
+   "Operation": "RosterDeleted",
+   "Description": "A roster is deleted by a user or an app."
+ },
+ {
+   "Friendly name": "Added a member(s) to a roster",
+   "Operation": "RosterMemberAdded",
+   "Description": "A member(s) is added to a roster. If the add operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, MemberIds indicates the list of member IDs attempted."
+ },
+ {
+   "Friendly name": "Removed a member(s) to a roster",
+   "Operation": "RosterMemberDeleted",
+   "Description": "A member(s) is removed from a roster. If the remove operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, MemberIds indicates the list of member IDs attempted."
+ },
+ {
+   "Friendly name": "Read a list of plans",
+   "Operation": "PlanListRead",
+   "Description": "A list of plans is queried by a user or an app. If the query operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, PlanList indicates an empty string."
+ },
+ {
+   "Friendly name": "Read a list of tasks",
+   "Operation": "TaskListRead",
+   "Description": "A list of tasks is queried by a user or an app. If the query operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, TaskList indicates an empty string."
+ },
+ {
+   "Friendly name": "Updated tenant settings",
+   "Operation": "TenantSettingsUpdated",
+   "Description": "Tenant settings are updated by a tenant admin. If the update operation is a ResultStatus.Failure or ResultStatus.AuthorizationFailure, ObjectId indicates the original settings, and TenantSettings indicates the tenant settings attempted."
+ },
+ {
+   "Friendly name": "Updated a roster's sensitivity label",
+   "Operation": "RosterSensitivityLabelUpdated",
+   "Description": "A user or an app updates a roster's sensitivity label."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Created project",
+   "Operation": "ProjectCreated",
+   "Description": "A project is created by a user or app."
+ },
+ {
+   "Friendly name": "Created roadmap",
+   "Operation": "RoadmapCreated",
+   "Description": "A roadmap or portfolio is created by a user or app."
+ },
+ {
+   "Friendly name": "Created roadmap item",
+   "Operation": "RoadmapItemCreated",
+   "Description": "A roadmap or portfolio item is created by a user or app."
+ },
+ {
+   "Friendly name": "Created task",
+   "Operation": "TaskCreated",
+   "Description": "A task is created by a user or app."
+ },
+ {
+   "Friendly name": "Deleted project",
+   "Operation": "ProjectDeleted",
+   "Description": "A project is deleted by a user or app."
+ },
+ {
+   "Friendly name": "Deleted roadmap",
+   "Operation": "RoadmapDeleted",
+   "Description": "A roadmap or portfolio is deleted by a user or app."
+ },
+ {
+   "Friendly name": "Deleted roadmap item",
+   "Operation": "RoadmapItemDeleted",
+   "Description": "A roadmap or portfolio item is deleted by a user or app."
+ },
+ {
+   "Friendly name": "Deleted task",
+   "Operation": "TaskDeleted",
+   "Description": "A task is deleted by a user or app."
+ },
+ {
+   "Friendly name": "Project accessed",
+   "Operation": "ProjectAccessed",
+   "Description": "A project is read or app."
+ },
+ {
+   "Friendly name": "Project home accessed",
+   "Operation": "ProjectListAccessed",
+   "Description": "A list of projects and/or roadmaps is queried by a user."
+ },
+ {
+   "Friendly name": "Roadmap accessed",
+   "Operation": "RoadmapAccessed",
+   "Description": "A roadmap or portfolio is read by a user or app."
+ },
+ {
+   "Friendly name": "Roadmap item accessed",
+   "Operation": "RoadmapItemAccessed",
+   "Description": "A roadmap or portfolio item is read by a user or app."
+ },
+ {
+   "Friendly name": "Task accessed",
+   "Operation": "TaskAccessed",
+   "Description": "A task is read by a user or app."
+ },
+ {
+   "Friendly name": "Updated project settings",
+   "Operation": "ProjectForTheWebProjectSettings",
+   "Description": "Project settings are updated by an admin."
+ },
+ {
+   "Friendly name": "Updated roadmap",
+   "Operation": "RoadmapUpdated",
+   "Description": "A roadmap or portfolio is modified by a user or app."
+ },
+ {
+   "Friendly name": "Updated roadmap item",
+   "Operation": "RoadmapItemUpdated",
+   "Description": "A roadmap or portfolio item is modified by a user or app."
+ },
+ {
+   "Friendly name": "Updated roadmap settings",
+   "Operation": "ProjectForTheWebRoadmaptSettings",
+   "Description": "Roadmap or portfolio settings are updated by an admin."
+ },
+ {
+   "Friendly name": "Updated task",
+   "Operation": "TaskUpdated",
+   "Description": "A task is modified by a user or app."
+ },
+ {
+   "Friendly name": "Updated project",
+   "Operation": "ProjectUpdated",
+   "Description": "A project is modified by a user or app."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Audit search created",
+   "Operation": "AuditSearchCreated",
+   "Description": "A new audit search request is submitted."
+ },
+ {
+   "Friendly name": "Audit search completed",
+   "Operation": "AuditSearchCompleted",
+   "Description": "An audit search job is completed."
+ },
+ {
+   "Friendly name": "Audit search canceled",
+   "Operation": "AuditSearchCancelled",
+   "Description": "An audit search job is canceled."
+ },
+ {
+   "Friendly name": "Audit search deleted",
+   "Operation": "AuditSearchDeleted",
+   "Description": "An audit search job is deleted."
+ },
+ {
+   "Friendly name": "Audit search export job created",
+   "Operation": "AuditSearchExportJobCreated",
+   "Description": "An export job is created to export the search results of an audit search query."
+ },
+ {
+   "Friendly name": "Audit search export job completed",
+   "Operation": "AuditSearchExportJobCompleted",
+   "Description": "The export job to export the search results of an audit search query is completed."
+ },
+ {
+   "Friendly name": "Audit search export results downloaded",
+   "Operation": "AuditSearchExportResultsDownloaded",
+   "Description": "The search results from an audit search query were downloaded."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Asset or entity created",
+   "Operation": "EntityCreated",
+   "Description": "A new asset or entity is created or added to an existing asset."
+ },
+ {
+   "Friendly name": "Classification added",
+   "Operation": "ClassificationAdded",
+   "Description": "Add classifications to asset entity."
+ },
+ {
+   "Friendly name": "Classification definition created",
+   "Operation": "ClassificationDefinitionCreated",
+   "Description": "Create a classification type."
+ },
+ {
+   "Friendly name": "Classification definition deleted",
+   "Operation": "ClassificationDefinitionDeleted",
+   "Description": "Delete a classification type."
+ },
+ {
+   "Friendly name": "Classification definition updated",
+   "Operation": "ClassificationDefinitionUpdated",
+   "Description": "Update a classification type."
+ },
+ {
+   "Friendly name": "Classification deleted",
+   "Operation": "ClassificationDeleted",
+   "Description": "Delete classifications from asset entity."
+ },
+ {
+   "Friendly name": "Classification updated",
+   "Operation": "ClassificationUpdated",
+   "Description": "Update classifications on asset entity."
+ },
+ {
+   "Friendly name": "Entity deleted",
+   "Operation": "EntityDeleted",
+   "Description": "An asset or entity is deleted from an existing asset."
+ },
+ {
+   "Friendly name": "Entity updated",
+   "Operation": "EntityUpdated",
+   "Description": "Includes: attribute update, business attribute update, collection info (only include collection ID), contacts update, customAttributes, hierarchy, homeId, labels, sourceDetails"
+ },
+ {
+   "Friendly name": "Glossary term assigned",
+   "Operation": "GlossaryTermAssigned",
+   "Description": "Assign terms to asset entity."
+ },
+ {
+   "Friendly name": "Glossary term created",
+   "Operation": "GlossaryTermCreated",
+   "Description": "Create a term."
+ },
+ {
+   "Friendly name": "Glossary term deleted",
+   "Operation": "GlossaryTermDeleted",
+   "Description": "Delete a term."
+ },
+ {
+   "Friendly name": "Glossary term disassociated",
+   "Operation": "GlossaryTermDisassociated",
+   "Description": "Disassociate terms from asset entity."
+ },
+ {
+   "Friendly name": "Glossary term updated",
+   "Operation": "GlossaryTermUpdated",
+   "Description": "Update a term."
+ },
+ {
+   "Friendly name": "Sensitivity label changed",
+   "Operation": "SensitivityLabelChanged",
+   "Description": "Sensitivity label is added/updated/deleted."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added bot to team",
+   "Operation": "BotAddedToTeam",
+   "Description": "A user adds a bot to a team."
+ },
+ {
+   "Friendly name": "Added channel",
+   "Operation": "ChannelAdded",
+   "Description": "A user adds a channel to a team."
+ },
+ {
+   "Friendly name": "Added connector",
+   "Operation": "ConnectorAdded",
+   "Description": "A user adds a connector to a channel."
+ },
+ {
+   "Friendly name": "Added details about Teams meeting 9",
+   "Operation": "MeetingDetail",
+   "Description": "Teams added information about a meeting, including the start time, the end time, and the URL to join the meeting."
+ },
+ {
+   "Friendly name": "Added information about meeting participants 9",
+   "Operation": "MeetingParticipantDetail",
+   "Description": "Teams added information about the participants of a meeting, including the user ID of each participant, the time a participant joined the meeting, and the time a participant left the meeting."
+ },
+ {
+   "Friendly name": "Added members 6, 8",
+   "Operation": "MemberAdded",
+   "Description": "A team owner adds members to a team, channel, or group chat."
+ },
+ {
+   "Friendly name": "Added tab",
+   "Operation": "TabAdded",
+   "Description": "A user adds a tab to a channel."
+ },
+ {
+   "Friendly name": "Applied sensitivity label",
+   "Operation": "SensitivityLabelApplied",
+   "Description": "A user or meeting organizer applied a sensitivity label to a Teams meeting."
+ },
+ {
+   "Friendly name": "Changed channel setting",
+   "Operation": "ChannelSettingChanged",
+   "Description": "The ChannelSettingChanged operation is logged when the following activities are performed by a team member. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the Item column in the audit log search results. Changes name of a team channel (Channel name)Changes description of a team channel (Channel description)"
+ },
+ {
+   "Friendly name": "Changed organization setting",
+   "Operation": "TeamsTenantSettingChanged",
+   "Description": "The TeamsTenantSettingChanged operation is logged when the following activities are performed by a global admin in the Microsoft 365 admin center. These activities affect org-wide Teams settings. To learn more, see Manage Teams settings for your organization. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the Item column in the audit log search results.Enables or disables Teams for the organization (Microsoft Teams).Enables or disables interoperability between Microsoft Teams and Skype for Business for the organization (Skype for Business interoperability).Enables or disables the organizational chart view in Microsoft Teams clients (Org chart view).Enables or disables the ability for team members to schedule private meetings (Private meeting scheduling).Enables or disables the ability for team members to schedule channel meetings (Channel meeting scheduling).Enables or disables video calling in Teams meetings (Video for Skype meetings).Enables or disables screen sharing in Microsoft Teams meetups for the organization (Screen sharing for Skype meetings).Enables or disables that ability to add animated images (called Giphys) to Teams conversations (Animated images).Changes the content rating setting for the organization (Content rating). The content rating restricts the type of animated image that can be displayed in conversations.Enables or disables the ability for team members to add customizable images (called custom memes) from the internet to team conversations (Customizable images from the Internet).Enables or disables the ability for team members to add editable images (called stickers) to team conversations (Editable images).Enables or disables that ability for team members to use bots in Microsoft Teams chats and channels (Org-wide bots).Enables specific bots for Microsoft Teams. This doesn't include the T-Bot, which is Teams help bot that's available when bots are enabled for the organization (Individual bots).Enables or disables the ability for team members to add extensions or tabs (Extensions or tabs).Enables or disables the side-loading of proprietary bots for Microsoft Teams (Side loading of Bots).Enables or disables the ability for users to send email messages to a Microsoft Teams channel (Channel email)."
+ },
+ {
+   "Friendly name": "Changed role of members in team",
+   "Operation": "MemberRoleChanged",
+   "Description": "A team owner changes the role of members in a team. The following values indicate the role type assigned to the user. 1 - Indicates the Member role.2 - Indicates the Owner role.3 - Indicates the Guest role.The Members property also includes the name of your organization and the member's email address."
+ },
+ {
+   "Friendly name": "Changed team setting",
+   "Operation": "TeamSettingChanged",
+   "Description": "The TeamSettingChanged operation is logged when the following activities are performed by a team owner. For each of these activities, a description of the setting that was changed (shown in parentheses) is displayed in the Item column in the audit log search results.Changes the access type for a team. Teams can be set as private or public (Team access type). When a team is private (the default setting), users can access the team only by invitation. When a team is public, it's discoverable by anyone.Changes the information classification of a team (Team classification). For example, team data can be classified as high business impact, medium business impact, or low business impact.Changes the name of a team (Team name).Changes the team description (Team description).Changes made to team settings. To access these settings, a team owner can right-click a team, select Manage team, and then select the Settings tab. For these activities, the name of the setting that was changed is displayed in the Item column in the audit log search results."
+ },
+ {
+   "Friendly name": "Changed sensitivity label",
+   "Operation": "SensitivityLabelChanged",
+   "Description": "A user changed a sensitivity label on a Teams meeting."
+ },
+ {
+   "Friendly name": "Created a chat 1, 6",
+   "Operation": "ChatCreated",
+   "Description": "A Teams chat was created."
+ },
+ {
+   "Friendly name": "Created team",
+   "Operation": "TeamCreated",
+   "Description": "A user creates a team."
+ },
+ {
+   "Friendly name": "Deleted a message 2",
+   "Operation": "MessageDeleted",
+   "Description": "A message in a chat or channel was deleted."
+ },
+ {
+   "Friendly name": "Deleted all organization apps",
+   "Operation": "DeletedAllOrganizationApps",
+   "Description": "Deleted all organization apps from the catalog."
+ },
+ {
+   "Friendly name": "Deleted app",
+   "Operation": "AppDeletedFromCatalog",
+   "Description": "An app has been deleted from the catalog."
+ },
+ {
+   "Friendly name": "Deleted channel",
+   "Operation": "ChannelDeleted",
+   "Description": "A user deletes a channel from a team."
+ },
+ {
+   "Friendly name": "Deleted team",
+   "Operation": "TeamDeleted",
+   "Description": "A team owner deletes a team."
+ },
+ {
+   "Friendly name": "Detected impersonation attempt",
+   "Operation": "TeamsImpersonationDetected",
+   "Description": "An external message sender is detected to have potential impersonation activity."
+ },
+ {
+   "Friendly name": "Edited a message with a URL link in Teams",
+   "Operation": "MessageEditedHasLink",
+   "Description": "A user edits a message and adds a URL link to it in Teams."
+ },
+ {
+   "Friendly name": "Exported messages 1,  2",
+   "Operation": "MessagesExported",
+   "Description": "Chat or channel messages were exported."
+ },
+ {
+   "Friendly name": "Exported recordings 1",
+   "Operation": "RecordingExported",
+   "Description": "Chat recordings were exported."
+ },
+ {
+   "Friendly name": "Exported transcripts 1",
+   "Operation": "TranscriptsExported",
+   "Description": "Chat transcripts were exported."
+ },
+ {
+   "Friendly name": "Failed to validate invitation to shared channel 3",
+   "Operation": "FailedValidation",
+   "Description": "A user responds to an invitation to a shared channel but the invitation failed validation."
+ },
+ {
+   "Friendly name": "Fetched chat 1",
+   "Operation": "ChatRetrieved",
+   "Description": "A Microsoft Teams chat was retrieved."
+ },
+ {
+   "Friendly name": "Fetched all hosted content of a message1",
+   "Operation": "MessageHostedContentsListed",
+   "Description": "All hosted content in  a message, such as images or code snippets, was retrieved."
+ },
+ {
+   "Friendly name": "Installed app",
+   "Operation": "AppInstalled",
+   "Description": "An app was installed."
+ },
+ {
+   "Friendly name": "Performed action on card",
+   "Operation": "PerformedCardAction",
+   "Description": "A user took action on an adaptive card within a chat. Adaptive cards are typically used by bots to allow the rich display of information and interaction in chats. Note: Only inline input actions on an adaptive card inside a chat are available in the audit log. For example, when a user submits a poll response in a channel conversation on an adaptive card generated by a Poll bot. User actions such as \"View result\", which will open a dialog, or user actions inside dialogs won't be available in the audit log."
+ },
+ {
+   "Friendly name": "Posted a new message 1, 6, 8",
+   "Operation": "MessageSent",
+   "Description": "A new message was posted to a chat or channel."
+ },
+ {
+   "Friendly name": "Populate AI-generated notes in chat",
+   "Operation": "AINotesUpdate",
+   "Description": "AI-generated notes have been populated for a group chat."
+ },
+ {
+   "Friendly name": "Populate AI-generated notes in live meetings",
+   "Operation": "LiveNotesUpdate",
+   "Description": "AI-generated notes have been populated for a live meeting."
+ },
+ {
+   "Friendly name": "Published app",
+   "Operation": "AppPublishedToCatalog",
+   "Description": "An app was added to the catalog."
+ },
+ {
+   "Friendly name": "Read a message 1",
+   "Operation": "MessageRead",
+   "Description": "A message of a chat or channel was retrieved."
+ },
+ {
+   "Friendly name": "Read hosted content of a message 1",
+   "Operation": "MessageHostedContentRead",
+   "Description": "Hosted content in a message, such as an image or a code snippet, was retrieved."
+ },
+ {
+   "Friendly name": "Removed bot from team",
+   "Operation": "BotRemovedFromTeam",
+   "Description": "A user removes a bot from a team."
+ },
+ {
+   "Friendly name": "Removed connector",
+   "Operation": "ConnectorRemoved",
+   "Description": "A user removes a connector from a channel."
+ },
+ {
+   "Friendly name": "Removed members 6, 8",
+   "Operation": "MemberRemoved",
+   "Description": "A team owner removes members from a team, channel, or group chat."
+ },
+ {
+   "Friendly name": "Removed sensitivity label",
+   "Operation": "SensitivityLabelRemoved",
+   "Description": "A user removed a sensitivity label from a Teams meeting."
+ },
+ {
+   "Friendly name": "Removed sharing of team channel 3",
+   "Operation": "TerminatedSharing",
+   "Description": "A team or channel owner disabled sharing for a shared channel."
+ },
+ {
+   "Friendly name": "Restored sharing of team channel 3",
+   "Operation": "SharingRestored",
+   "Description": "A team or channel owner re-enabled sharing for a shared channel."
+ },
+ {
+   "Friendly name": "Removed tab",
+   "Operation": "TabRemoved",
+   "Description": "A user removes a tab from a channel."
+ },
+ {
+   "Friendly name": "Responded to invitation for shared channel 3",
+   "Operation": "InviteeResponded",
+   "Description": "A user responded to a shared channel invitation."
+ },
+ {
+   "Friendly name": "Responded to invitee response to shared channel 3",
+   "Operation": "ChannelOwnerResponded",
+   "Description": "A channel owner responded to a response from a user who responded to a shared channel invitation."
+ },
+ {
+   "Friendly name": "Retrieved messages 1",
+   "Operation": "MessagesListed",
+   "Description": "Messages from a chat or channel were retrieved."
+ },
+ {
+   "Friendly name": "Sent a message with a URL link in Teams",
+   "Operation": "MessageCreatedHasLink",
+   "Description": "A user sends a message containing a URL link in Teams."
+ },
+ {
+   "Friendly name": "Sent change notification for message creation 1",
+   "Operation": "MessageCreatedNotification",
+   "Description": "A change notification was sent to notify a subscribed listener application of a new message."
+ },
+ {
+   "Friendly name": "Sent change notification for message deletion 1",
+   "Operation": "MessageDeletedNotification",
+   "Description": "A change notification was sent to notify a subscribed listener application of a deleted message."
+ },
+ {
+   "Friendly name": "Sent change notification for message update 1",
+   "Operation": "MessageUpdatedNotification",
+   "Description": "A change notification was sent to notify a subscribed listener application of an updated message."
+ },
+ {
+   "Friendly name": "Sent invitation for shared channel 3",
+   "Operation": "InviteSent",
+   "Description": "A channel owner or member sends an invitation to a shared channel. Invitations to shared channels can be sent to people outside of your organization if the channel policy is configured to share the channel with external users."
+ },
+ {
+   "Friendly name": "Subscribed to message change notifications 1",
+   "Operation": "SubscribedToMessages",
+   "Description": "A subscription was created by a listener application to receive change notifications for messages."
+ },
+ {
+   "Friendly name": "Uninstalled app",
+   "Operation": "AppUninstalled",
+   "Description": "An app was uninstalled."
+ },
+ {
+   "Friendly name": "Updated app",
+   "Operation": "AppUpdatedInCatalog",
+   "Description": "An app was updated in the catalog."
+ },
+ {
+   "Friendly name": "Updated a chat 1",
+   "Operation": "ChatUpdated",
+   "Description": "A Teams chat was updated."
+ },
+ {
+   "Friendly name": "Updated a message 1",
+   "Operation": "MessageUpdated",
+   "Description": "A message of a chat or channel was updated."
+ },
+ {
+   "Friendly name": "Updated connector",
+   "Operation": "ConnectorUpdated",
+   "Description": "A user modified a connector in a channel."
+ },
+ {
+   "Friendly name": "Updated tab",
+   "Operation": "TabUpdated",
+   "Description": "A user modified a tab in a channel."
+ },
+ {
+   "Friendly name": "Upgraded app",
+   "Operation": "AppUpgraded",
+   "Description": "An app was upgraded to its latest version in the catalog."
+ },
+ {
+   "Friendly name": "User signed in to Teams",
+   "Operation": "TeamsSessionStarted",
+   "Description": "A user signs in to a Microsoft Teams client. This event doesn't capture token refresh activities."
+ },
+ {
+   "Friendly name": "Posted New Message 3,  4,  6, 8",
+   "Operation": "MessageSent",
+   "Description": "A new message was posted to a chat or a channel."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added scheduling group",
+   "Operation": "ScheduleGroupAdded",
+   "Description": "A user successfully adds a new scheduling group to the schedule."
+ },
+ {
+   "Friendly name": "Edited scheduling group",
+   "Operation": "ScheduleGroupEdited",
+   "Description": "A user successfully edits a scheduling group."
+ },
+ {
+   "Friendly name": "Deleted scheduling group",
+   "Operation": "ScheduleGroupDeleted",
+   "Description": "A user successfully deletes a scheduling group from the schedule."
+ },
+ {
+   "Friendly name": "Withdrew schedule",
+   "Operation": "ScheduleWithdrawn",
+   "Description": "A user successfully withdraws a published schedule."
+ },
+ {
+   "Friendly name": "Added shift",
+   "Operation": "ShiftAdded",
+   "Description": "A user successfully adds a shift."
+ },
+ {
+   "Friendly name": "Edited shift",
+   "Operation": "ShiftEdited",
+   "Description": "A user successfully edits a shift."
+ },
+ {
+   "Friendly name": "Deleted shift",
+   "Operation": "ShiftDeleted",
+   "Description": "A user successfully deletes a shift."
+ },
+ {
+   "Friendly name": "Added time off",
+   "Operation": "TimeOffAdded",
+   "Description": "A user successfully adds time off on the schedule."
+ },
+ {
+   "Friendly name": "Edited time off",
+   "Operation": "TimeOffEdited",
+   "Description": "A user successfully edits time off."
+ },
+ {
+   "Friendly name": "Deleted time off",
+   "Operation": "TimeOffDeleted",
+   "Description": "A user successfully deletes time off."
+ },
+ {
+   "Friendly name": "Added open shift",
+   "Operation": "OpenShiftAdded",
+   "Description": "A user successfully adds an open shift to a scheduling group."
+ },
+ {
+   "Friendly name": "Edited open shift",
+   "Operation": "OpenShiftEdited",
+   "Description": "A user successfully edits an open shift in a scheduling group."
+ },
+ {
+   "Friendly name": "Deleted open shift",
+   "Operation": "OpenShiftDeleted",
+   "Description": "A user successfully deletes an open shift from a scheduling group."
+ },
+ {
+   "Friendly name": "Shared schedule",
+   "Operation": "ScheduleShared",
+   "Description": "A user successfully shared a team schedule for a date range."
+ },
+ {
+   "Friendly name": "Clocked in using Time clock",
+   "Operation": "ClockedIn",
+   "Description": "A user successfully clocks in using Time clock."
+ },
+ {
+   "Friendly name": "Clocked out using Time clock",
+   "Operation": "ClockedOut",
+   "Description": "A user successfully clocks out using Time clock."
+ },
+ {
+   "Friendly name": "Started break using Time clock",
+   "Operation": "BreakStarted",
+   "Description": "A user successfully starts a break during an active Time clock session."
+ },
+ {
+   "Friendly name": "Ended break using Time clock",
+   "Operation": "BreakEnded",
+   "Description": "A user successfully ends a break during an active Time clock session."
+ },
+ {
+   "Friendly name": "Added Time clock entry",
+   "Operation": "TimeClockEntryAdded",
+   "Description": "A user successfully adds a new manual Time clock entry on Time Sheet."
+ },
+ {
+   "Friendly name": "Edited Time clock entry",
+   "Operation": "TimeClockEntryEdited",
+   "Description": "A user successfully edits a Time clock entry on Time Sheet."
+ },
+ {
+   "Friendly name": "Deleted Time clock entry",
+   "Operation": "TimeClockEntryDeleted",
+   "Description": "A user successfully deletes a Time clock entry on Time Sheet."
+ },
+ {
+   "Friendly name": "Added shift request",
+   "Operation": "RequestAdded",
+   "Description": "A user added a shift request."
+ },
+ {
+   "Friendly name": "Responded to shift request",
+   "Operation": "RequestRespondedTo",
+   "Description": "A user responded to a shift request."
+ },
+ {
+   "Friendly name": "Canceled shift request",
+   "Operation": "RequestCancelled",
+   "Description": "A user canceled a shift request."
+ },
+ {
+   "Friendly name": "Changed schedule setting",
+   "Operation": "ScheduleSettingChanged",
+   "Description": "A user changes a setting in Shifts settings."
+ },
+ {
+   "Friendly name": "Added workforce integration",
+   "Operation": "WorkforceIntegrationAdded",
+   "Description": "The Shifts app is integrated with a third-party system."
+ },
+ {
+   "Friendly name": "Accepted off shift message",
+   "Operation": "OffShiftDialogAccepted",
+   "Description": "A user acknowledges the off-shift message to access Teams after shift hours."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Create an update request",
+   "Operation": "CreateUpdateRequest",
+   "Description": "A user successfully creates an update request."
+ },
+ {
+   "Friendly name": "Edit an update request",
+   "Operation": "EditUpdateRequest",
+   "Description": "A user opens the request editing workflow and selects Save to confirm and save any changes, or enables or disables the update request directly."
+ },
+ {
+   "Friendly name": "Submit an update",
+   "Operation": "SubmitUpdate",
+   "Description": "A user successfully submits an update."
+ },
+ {
+   "Friendly name": "View the details of one update",
+   "Operation": "ViewUpdate",
+   "Description": "A user views the details of the update."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Accepted sharing link on folder",
+   "Operation": "AcceptedSharingLinkOnFolder",
+   "Description": "Accepted sharing link for a folder."
+ },
+ {
+   "Friendly name": "Attachment created",
+   "Operation": "AttachmentCreated",
+   "Description": "An attachment was created for a task."
+ },
+ {
+   "Friendly name": "Attachment updated",
+   "Operation": "AttachmentUpdated",
+   "Description": "An attachment was updated."
+ },
+ {
+   "Friendly name": "Attachment deleted",
+   "Operation": "AttachmentDeleted",
+   "Description": "An attachment was deleted."
+ },
+ {
+   "Friendly name": "Folder sharing link shared",
+   "Operation": "FolderSharingLinkShared",
+   "Description": "Created a sharing link for a folder."
+ },
+ {
+   "Friendly name": "Linked entity deleted",
+   "Operation": "LinkedEntityDeleted",
+   "Description": "A linked entity was deleted."
+ },
+ {
+   "Friendly name": "Linked entity updated",
+   "Operation": "LinkedEntityUpdated",
+   "Description": "A linked entity was updated."
+ },
+ {
+   "Friendly name": "Linked entity created",
+   "Operation": "LinkedEntityCreated",
+   "Description": "A linked entity of task was created."
+ },
+ {
+   "Friendly name": "SubTask created",
+   "Operation": "SubTaskCreated",
+   "Description": "A subtask was created."
+ },
+ {
+   "Friendly name": "SubTask deleted",
+   "Operation": "SubTaskDeleted",
+   "Description": "A subtask was deleted."
+ },
+ {
+   "Friendly name": "SubTask updated",
+   "Operation": "SubTaskUpdated",
+   "Description": "A subtask was updated."
+ },
+ {
+   "Friendly name": "Task created",
+   "Operation": "TaskCreated",
+   "Description": "A task was created."
+ },
+ {
+   "Friendly name": "Task deleted",
+   "Operation": "TaskDeleted",
+   "Description": "A task was deleted."
+ },
+ {
+   "Friendly name": "Task read",
+   "Operation": "TaskRead",
+   "Description": "A task was read."
+ },
+ {
+   "Friendly name": "Task updated",
+   "Operation": "TaskUpdated",
+   "Description": "A task was updated."
+ },
+ {
+   "Friendly name": "TaskList created",
+   "Operation": "TaskListCreated",
+   "Description": "A task list was created."
+ },
+ {
+   "Friendly name": "TaskList read",
+   "Operation": "TaskListRead",
+   "Description": "A task list was read."
+ },
+ {
+   "Friendly name": "TaskList updated",
+   "Operation": "TaskListUpdated",
+   "Description": "A task list was updated."
+ },
+ {
+   "Friendly name": "User invited",
+   "Operation": "UserInvited",
+   "Description": "Invited user to a folder."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Accessed OData link",
+   "Operation": "AccessedOdataLink",
+   "Description": "Analyst accessed the OData link for a query."
+ },
+ {
+   "Friendly name": "Added delegate access",
+   "Operation": "AddDelegates",
+   "Description": "A user added delegate access for organization insights or Copilot dashboard."
+ },
+ {
+   "Friendly name": "Canceled query",
+   "Operation": "CanceledQuery",
+   "Description": "Analyst canceled a running query."
+ },
+ {
+   "Friendly name": "Created meeting exclusion",
+   "Operation": "MeetingExclusionCreated",
+   "Description": "Analyst created a meeting exclusion rule."
+ },
+ {
+   "Friendly name": "Deleted result",
+   "Operation": "DeletedResult",
+   "Description": "Analyst deleted a query result."
+ },
+ {
+   "Friendly name": "Downloaded report",
+   "Operation": "DownloadedReport",
+   "Description": "Analyst downloaded a query result file."
+ },
+ {
+   "Friendly name": "Executed query",
+   "Operation": "ExecutedQuery",
+   "Description": "Analyst ran a query."
+ },
+ {
+   "Friendly name": "Removed delegate access",
+   "Operation": "RemoveDelegates",
+   "Description": "A user removed delegate access for organization insights or Copilot dashboard."
+ },
+ {
+   "Friendly name": "Updated data access setting",
+   "Operation": "UpdatedDataAccessSetting",
+   "Description": "Admin updated data access settings."
+ },
+ {
+   "Friendly name": "Updated privacy setting",
+   "Operation": "UpdatedPrivacySetting",
+   "Description": "Admin updated privacy settings; for example, minimum group size."
+ },
+ {
+   "Friendly name": "Uploaded organization data",
+   "Operation": "UploadedOrgData",
+   "Description": "Admin uploaded organizational data file."
+ },
+ {
+   "Friendly name": "User logged in*",
+   "Operation": "UserLoggedIn",
+   "Description": "A user signed in to their Microsoft 365 user account."
+ },
+ {
+   "Friendly name": "User logged off*",
+   "Operation": "UserLoggedOff",
+   "Description": "A user signed out of their Microsoft 365 user account."
+ },
+ {
+   "Friendly name": "Viewed Explore",
+   "Operation": "ViewedExplore",
+   "Description": "Analyst viewed visualizations in one or more Explore page tabs."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Updated organization MyAnalytics settings",
+   "Operation": "UpdatedOrganizationMyAnalyticsSettings",
+   "Description": "Admin updates organization-level settings for personal insights."
+ },
+ {
+   "Friendly name": "Updated user MyAnalytics settings",
+   "Operation": "UpdatedUserMyAnalyticsSettings",
+   "Description": "Admin updates user settings for personal insights."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Deleted quarantine message",
+   "Operation": "QuarantineDeleteMessage",
+   "Description": "An admin or user deleted an email message that was deemed to be harmful."
+ },
+ {
+   "Friendly name": "Denied quarantine message release request",
+   "Operation": "QuarantineReleaseRequestDeny",
+   "Description": "An admin denial for a release request from a user for an email message that was deemed to be harmful."
+ },
+ {
+   "Friendly name": "Exported quarantine message",
+   "Operation": "QuarantineExport",
+   "Description": "An admin or user exported an email message that was deemed to be harmful."
+ },
+ {
+   "Friendly name": "Previewed quarantine message",
+   "Operation": "QuarantinePreview",
+   "Description": "An admin or user previewed an email message that was deemed to be harmful."
+ },
+ {
+   "Friendly name": "Released quarantine message",
+   "Operation": "QuarantineRelease",
+   "Description": "An admin or user released an email message from quarantine that was deemed to be harmful."
+ },
+ {
+   "Friendly name": "Release request quarantine message",
+   "Operation": "QuarantineReleaseRequest",
+   "Description": "A user requested the release of an email message that was deemed to be harmful."
+ },
+ {
+   "Friendly name": "Viewed quarantine message's header",
+   "Operation": "QuarantineViewHeader",
+   "Description": "An admin or user viewed the header an email message that was deemed to be harmful."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Updated usage report privacy settings",
+   "Operation": "UpdateUsageReportsPrivacySetting",
+   "Description": "Admin updated privacy settings for usage reports."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Changed adaptive scope membership",
+   "Operation": "ApplicableAdaptiveScopeChange",
+   "Description": "Users, sites, or groups were added to or removed from the adaptive scope. These changes are the results of running the scope's query. Because the changes are system-initiated, the reported user displays as a GUID rather than a user account."
+ },
+ {
+   "Friendly name": "Configured settings for a retention policy",
+   "Operation": "NewRetentionComplianceRule",
+   "Description": "Administrator configured the retention settings for a new retention policy. Retention settings include how long items are retained, and what happens to items when the retention period expires (such as deleting items, retaining items, or retaining and then deleting them). This activity also corresponds to running the New-RetentionComplianceRule cmdlet."
+ },
+ {
+   "Friendly name": "Created adaptive scope",
+   "Operation": "NewAdaptiveScope",
+   "Description": "Administrator created an adaptive scope."
+ },
+ {
+   "Friendly name": "Created retention label",
+   "Operation": "NewComplianceTag",
+   "Description": "Administrator created a new retention label."
+ },
+ {
+   "Friendly name": "Created retention policy",
+   "Operation": "NewRetentionCompliancePolicy",
+   "Description": "Administrator created a new retention policy."
+ },
+ {
+   "Friendly name": "Deleted adaptive scope",
+   "Operation": "RemoveAdaptiveScope",
+   "Description": "Administrator deleted an adaptive scope."
+ },
+ {
+   "Friendly name": "Deleted settings from a retention policy",
+   "Operation": "RemoveRetentionComplianceRule",
+   "Description": "Administrator deleted the configuration settings of a retention policy. Most likely, this activity is logged when an administrator deletes a retention policy or runs the Remove-RetentionComplianceRule cmdlet."
+ },
+ {
+   "Friendly name": "Deleted retention label",
+   "Operation": "RemoveComplianceTag",
+   "Description": "Administrator deleted a retention label."
+ },
+ {
+   "Friendly name": "Deleted retention policy",
+   "Operation": "RemoveRetentionCompliancePolicy",
+   "Description": "Administrator deleted a retention policy."
+ },
+ {
+   "Friendly name": "Enabled regulatory record option for retention labels",
+   "Operation": "SetRestrictiveRetentionUI",
+   "Description": "Administrator ran the Set-RegulatoryComplianceUI cmdlet so that an administrator can then select the UI configuration option for a retention label to mark content as a regulatory record."
+ },
+ {
+   "Friendly name": "Retained email item proactively",
+   "Operation": "ExchangeDataProactivelyPreserved",
+   "Description": "Adaptive protection automatically applied a retention label to retain an item in Exchange."
+ },
+ {
+   "Friendly name": "Retained file proactively",
+   "Operation": "SharePointDataProactivelyPreserved",
+   "Description": "Adaptive protection automatically applied a retention label to retain an item in SharePoint or OneDrive."
+ },
+ {
+   "Friendly name": "Updated adaptive scope",
+   "Operation": "SetAdaptiveScope",
+   "Description": "Administrator changed the description or query for an existing adaptive scope."
+ },
+ {
+   "Friendly name": "Updated settings for a retention policy",
+   "Operation": "SetRetentionComplianceRule",
+   "Description": "Administrator changed the retention settings for an existing retention policy. Retention settings include how long items are retained, and what happens to items when the retention period expires (such as deleting items, retaining items, or retaining and then deleting them). This activity also corresponds to running the Set-RetentionComplianceRule cmdlet."
+ },
+ {
+   "Friendly name": "Updated retention label",
+   "Operation": "SetComplianceTag",
+   "Description": "Administrator updated an existing retention label."
+ },
+ {
+   "Friendly name": "Updated retention policy",
+   "Operation": "SetRetentionCompliancePolicy",
+   "Description": "Administrator updated an existing a retention policy. Updates that trigger this event include adding or excluding content locations that the retention policy is applied to."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Add member to Role",
+   "Operation": "Add member to role.",
+   "Description": "Added a user to an admin role in Microsoft 365."
+ },
+ {
+   "Friendly name": "Removed a user from a directory role",
+   "Operation": "Remove member from role.",
+   "Description": "Removed a user to from an admin role in Microsoft 365."
+ },
+ {
+   "Friendly name": "Set company contact information",
+   "Operation": "Set company contact information.",
+   "Description": "Updated the company-level contact preferences for your organization. This includes email addresses for subscription-related email sent by Microsoft 365, and technical notifications about services."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Created new sensitive information type",
+   "Operation": "CreateRulePackage /  EditRulePackage*",
+   "Description": "A new sensitive information type was created. This includes any SITs created by copying an out of the box SIT. Note: This activity surfaces under the audit activities 'Created rule package' or 'Edited rule package'."
+ },
+ {
+   "Friendly name": "Edited a sensitive information type",
+   "Operation": "EditRulePackage",
+   "Description": "An existing sensitive information type was edited. This can include operations like adding/removing a pattern and editing the regex/keyword associated with the sensitive information type. Note: This activity surfaces under the audit activity \"Edited rule package.\""
+ },
+ {
+   "Friendly name": "Deleted a sensitive information type",
+   "Operation": "EditRulePackage / RemoveRulePackage",
+   "Description": "An existing sensitive information type was deleted. Note: This activity surfaces under the audit activity \"Edited rule package\" or \"Removed rule package.\""
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Applied sensitivity label to site",
+   "Operation": "SiteSensitivityLabelApplied",
+   "Description": "A sensitivity label was applied to a SharePoint site or Teams site that isn't group-connected."
+ },
+ {
+   "Friendly name": "Removed sensitivity label from site",
+   "Operation": "SiteSensitivityLabelRemoved",
+   "Description": "A sensitivity label was removed from a SharePoint site or Teams site that isn't group-connected."
+ },
+ {
+   "Friendly name": "Applied sensitivity label to file",
+   "Operation": "FileSensitivityLabelApplied  SensitivityLabelApplied",
+   "Description": "A sensitivity label was applied to an item by using Microsoft 365 apps, Office for the web, or an auto-labeling policy. The operations for this activity are different depending on how the label was applied: - Office for the web or an auto-labeling policy (FileSensitivityLabelApplied)  - Microsoft 365 apps (SensitivityLabelApplied)"
+ },
+ {
+   "Friendly name": "Changed sensitivity label applied to file",
+   "Operation": "FileSensitivityLabelChangedSensitivityLabelUpdated",
+   "Description": "A different sensitivity label was applied to an item. The operations for this activity are different depending on how the label was changed: - Office for the web or an auto-labeling policy (FileSensitivityLabelChanged)  - Microsoft 365 apps (SensitivityLabelUpdated)"
+ },
+ {
+   "Friendly name": "Changed sensitivity label on a site",
+   "Operation": "SiteSensitivityLabelChanged",
+   "Description": "A different sensitivity label was applied to a SharePoint site or Teams site that isn't group-connected."
+ },
+ {
+   "Friendly name": "Removed sensitivity label from file",
+   "Operation": "FileSensitivityLabelRemoved  SensitivityLabelRemoved",
+   "Description": "A sensitivity label was removed from an item by using Microsoft 365 apps, Office for the web, an auto-labeling policy, or the Unlock-SPOSensitivityLabelEncryptedFile cmdlet. The operations for this activity are different depending on how the label was removed: - Office for the web or an auto-labeling policy (FileSensitivityLabelRemoved)  - Microsoft 365 apps (SensitivityLabelRemoved)"
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Created list",
+   "Operation": "ListCreated",
+   "Description": "A user created a SharePoint list."
+ },
+ {
+   "Friendly name": "Created list column",
+   "Operation": "ListColumnCreated",
+   "Description": "A user created a SharePoint list column. A list column is a column that's attached to one or more SharePoint lists."
+ },
+ {
+   "Friendly name": "Created list content type",
+   "Operation": "ListContentTypeCreated",
+   "Description": "A user created a list content type. A list content type is a content type that's attached to one or more SharePoint lists."
+ },
+ {
+   "Friendly name": "Created list item",
+   "Operation": "ListItemCreated",
+   "Description": "A user created an item in an existing SharePoint list."
+ },
+ {
+   "Friendly name": "Created site column",
+   "Operation": "SiteColumnCreated",
+   "Description": "A user created a SharePoint site column. A site column is a column that isn't attached to a list. A site column is also a metadata structure that can be used by any list in a given web."
+ },
+ {
+   "Friendly name": "Created site content type",
+   "Operation": "Site ContentType Created",
+   "Description": "A user created a site content type. A site content type is a content type that's attached to the parent site."
+ },
+ {
+   "Friendly name": "Deleted list",
+   "Operation": "ListDeleted",
+   "Description": "A user deleted a SharePoint list."
+ },
+ {
+   "Friendly name": "Deleted list column",
+   "Operation": "List Column Deleted",
+   "Description": "A user deleted a SharePoint list column."
+ },
+ {
+   "Friendly name": "Deleted list content type",
+   "Operation": "ListContentTypeDeleted",
+   "Description": "A user deleted a list content type."
+ },
+ {
+   "Friendly name": "Deleted list item",
+   "Operation": "List Item Deleted",
+   "Description": "A user deleted a SharePoint list item."
+ },
+ {
+   "Friendly name": "Deleted site column",
+   "Operation": "SiteColumnDeleted",
+   "Description": "A user deleted a SharePoint site column."
+ },
+ {
+   "Friendly name": "Deleted site content type",
+   "Operation": "SiteContentTypeDeleted",
+   "Description": "A user deleted a site content type."
+ },
+ {
+   "Friendly name": "Recycled list item",
+   "Operation": "ListItemRecycled",
+   "Description": "A user moved a SharePoint list item to the Recycle Bin."
+ },
+ {
+   "Friendly name": "Restored list",
+   "Operation": "ListRestored",
+   "Description": "A user restored a SharePoint list from the Recycle Bin."
+ },
+ {
+   "Friendly name": "Restored list item",
+   "Operation": "ListItemRestored",
+   "Description": "A user restored a SharePoint list item from the Recycle Bin."
+ },
+ {
+   "Friendly name": "Updated list",
+   "Operation": "ListUpdated",
+   "Description": "A user updated a SharePoint list by modifying one or more properties."
+ },
+ {
+   "Friendly name": "Updated list column",
+   "Operation": "ListColumnUpdated",
+   "Description": "A user updated a SharePoint list column by modifying one or more properties."
+ },
+ {
+   "Friendly name": "Updated list content type",
+   "Operation": "ListContentTypeUpdated",
+   "Description": "A user updated a list content type by modifying one or more properties."
+ },
+ {
+   "Friendly name": "Updated list item",
+   "Operation": "ListItemUpdated",
+   "Description": "A user updated a SharePoint list item by modifying one or more properties."
+ },
+ {
+   "Friendly name": "Updated list view",
+   "Operation": "ListViewUpdated",
+   "Description": "A user updated a SharePoint list view by modifying one or more properties."
+ },
+ {
+   "Friendly name": "Updated site column",
+   "Operation": "SiteColumnUpdated",
+   "Description": "A user updated a SharePoint site column by modifying one or more properties."
+ },
+ {
+   "Friendly name": "Updated site content type",
+   "Operation": "SiteContentTypeUpdated",
+   "Description": "A user updated a site content type by modifying one or more properties."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added permission level to site collection",
+   "Operation": "PermissionLevelAdded",
+   "Description": "A permission level was added to a site collection."
+ },
+ {
+   "Friendly name": "Accepted access request",
+   "Operation": "AccessRequestAccepted",
+   "Description": "An access request to a site, folder, or document was accepted and the requesting user has been granted access."
+ },
+ {
+   "Friendly name": "Accepted sharing invitation",
+   "Operation": "SharingInvitationAccepted",
+   "Description": "User (member or guest) accepted a sharing invitation and was granted access to a resource. This event includes information about the user who was invited and the email address that was used to accept the invitation (they could be different). This activity is often accompanied by a second event that describes how the user was granted access to the resource, for example, adding the user to a group that has access to the resource."
+ },
+ {
+   "Friendly name": "Blocked sharing invitation",
+   "Operation": "SharingInvitationBlocked",
+   "Description": "A sharing invitation sent by a user in your organization is blocked because of an external sharing policy that either allows or denies external sharing based on the domain of the target user. In this case, the sharing invitation was blocked because:  The target user's domain isn't included in the list of allowed domains.  Or  The target user's domain is included in the list of blocked domains.  For more information about allowing or blocking external sharing based on domains, see Restricted domains sharing in SharePoint Online and OneDrive for Business."
+ },
+ {
+   "Friendly name": "Created access request",
+   "Operation": "AccessRequestCreated",
+   "Description": "User requests access to a site, folder, or document they don't have permissions to access."
+ },
+ {
+   "Friendly name": "Created a company shareable link",
+   "Operation": "CompanyLinkCreated",
+   "Description": "User created a company-wide link to a resource. company-wide links can only be used by members in your organization. They can't be used by guests."
+ },
+ {
+   "Friendly name": "Created an anonymous link",
+   "Operation": "AnonymousLinkCreated",
+   "Description": "User created an anonymous link to a resource. Anyone with this link can access the resource without having to be authenticated."
+ },
+ {
+   "Friendly name": "Created secure link",
+   "Operation": "SecureLinkCreated",
+   "Description": "A secure sharing link was created to this item."
+ },
+ {
+   "Friendly name": "Created sharing invitation",
+   "Operation": "SharingInvitationCreated",
+   "Description": "User shared a resource in SharePoint Online or OneDrive for Business with a user who isn't in your organization's directory."
+ },
+ {
+   "Friendly name": "Deleted secure link",
+   "Operation": "SecureLinkDeleted",
+   "Description": "A secure sharing link was deleted."
+ },
+ {
+   "Friendly name": "Denied access request",
+   "Operation": "AccessRequestDenied",
+   "Description": "An access request to a site, folder, or document was denied."
+ },
+ {
+   "Friendly name": "Removed a company shareable link",
+   "Operation": "CompanyLinkRemoved",
+   "Description": "User removed a company-wide link to a resource. The link can no longer be used to access the resource."
+ },
+ {
+   "Friendly name": "Removed an anonymous link",
+   "Operation": "AnonymousLinkRemoved",
+   "Description": "User removed an anonymous link to a resource. The link can no longer be used to access the resource."
+ },
+ {
+   "Friendly name": "Shared file, folder, or site",
+   "Operation": "SharingSet",
+   "Description": "User (member or guest) shared a file, folder, or site in SharePoint or OneDrive for Business with a user in your organization's directory. The value in the Detail column for this activity identifies the name of the user the resource was shared with and whether this user is a member or a guest.  This activity is often accompanied by a second event that describes how the user was granted access to the resource. For example, adding the user to a group that has access to the resource."
+ },
+ {
+   "Friendly name": "Updated access request",
+   "Operation": "AccessRequestUpdated",
+   "Description": "An access request to an item was updated."
+ },
+ {
+   "Friendly name": "Updated an anonymous link",
+   "Operation": "AnonymousLinkUpdated",
+   "Description": "User updated an anonymous link to a resource. The updated field is included in the EventData property when you export the search results."
+ },
+ {
+   "Friendly name": "Updated sharing invitation",
+   "Operation": "SharingInvitationUpdated",
+   "Description": "An external sharing invitation was updated."
+ },
+ {
+   "Friendly name": "Used an anonymous link",
+   "Operation": "AnonymousLinkUsed",
+   "Description": "An anonymous user accessed a resource by using an anonymous link. The user's identity might be unknown, but you can get other details such as the user's IP address."
+ },
+ {
+   "Friendly name": "Unshared file, folder, or site",
+   "Operation": "SharingRevoked",
+   "Description": "User (member or guest) unshared a file, folder, or site that was previously shared with another user."
+ },
+ {
+   "Friendly name": "Used a company shareable link",
+   "Operation": "CompanyLinkUsed",
+   "Description": "User accessed a resource by using a company-wide link."
+ },
+ {
+   "Friendly name": "Used secure link",
+   "Operation": "SecureLinkUsed",
+   "Description": "A user used a secure link."
+ },
+ {
+   "Friendly name": "User added to secure link",
+   "Operation": "AddedToSecureLink",
+   "Description": "A user was added to the list of entities who can use a secure sharing link."
+ },
+ {
+   "Friendly name": "User removed from secure link",
+   "Operation": "RemovedFromSecureLink",
+   "Description": "A user was removed from the list of entities who can use a secure sharing link."
+ },
+ {
+   "Friendly name": "Withdrew sharing invitation",
+   "Operation": "SharingInvitationRevoked",
+   "Description": "User withdrew a sharing invitation to a resource."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added allowed data location",
+   "Operation": "AllowedDataLocationAdded",
+   "Description": "A SharePoint or global administrator added an allowed data location in a multi-geo environment."
+ },
+ {
+   "Friendly name": "Added exempt user agent",
+   "Operation": "ExemptUserAgentSet",
+   "Description": "A SharePoint or global administrator added a user agent to the list of exempt user agents in the SharePoint admin center."
+ },
+ {
+   "Friendly name": "Added geo location admin",
+   "Operation": "GeoAdminAdded",
+   "Description": "A SharePoint or global administrator added a user as a geo admin of a location."
+ },
+ {
+   "Friendly name": "Allowed user to create groups",
+   "Operation": "AllowGroupCreationSet",
+   "Description": "Site administrator or owner adds a permission level to a site that allows a user assigned that permission to create a group for that site."
+ },
+ {
+   "Friendly name": "Canceled site geo move",
+   "Operation": "SiteGeoMoveCancelled",
+   "Description": "A SharePoint or global administrator successfully cancels a SharePoint or OneDrive site geo move. The Multi-Geo capability lets an organization span multiple Microsoft datacenter geographies, which are called geos. For more information, see Multi-Geo Capabilities in OneDrive and SharePoint Online."
+ },
+ {
+   "Friendly name": "Changed a sharing policy",
+   "Operation": "SharingPolicyChanged",
+   "Description": "A SharePoint or global administrator changed a SharePoint sharing policy by using the Microsoft 365 admin center, SharePoint admin center, or SharePoint Online Management Shell. Any change to the settings in the sharing policy in your organization are logged. The policy that was changed is identified in the ModifiedProperties field in the detailed properties of the event record."
+ },
+ {
+   "Friendly name": "Changed device access policy",
+   "Operation": "DeviceAccessPolicyChanged",
+   "Description": "A SharePoint or global administrator changed the unmanaged devices policy for your organization. This policy controls access to SharePoint, OneDrive, and Microsoft 365 from devices that aren't joined to your organization. Configuring this policy requires an Enterprise Mobility + Security subscription. For more information, see Control access from unmanaged devices."
+ },
+ {
+   "Friendly name": "Changed exempt user agents",
+   "Operation": "CustomizeExemptUsers",
+   "Description": "A SharePoint or global administrator customized the list of exempt user agents in the SharePoint admin center. You can specify which user agents to exempt from receiving an entire web page to index. This means when a user agent you've specified as exempt encounters an InfoPath form, the form is returned as an XML file, instead of an entire web page. This makes indexing InfoPath forms faster."
+ },
+ {
+   "Friendly name": "Changed network access policy",
+   "Operation": "NetworkAccessPolicyChanged",
+   "Description": "A SharePoint or global administrator changed the location-based access policy (also called a trusted network boundary) in the SharePoint admin center or by using SharePoint Online PowerShell. This type of policy controls who can access SharePoint and OneDrive resources in your organization based on authorized IP address ranges that you specify. For more information, see Control access to SharePoint Online and OneDrive data based on network location."
+ },
+ {
+   "Friendly name": "Completed migration job",
+   "Operation": "MigrationJobCompleted",
+   "Description": "A migration job was successfully completed."
+ },
+ {
+   "Friendly name": "Completed site geo move",
+   "Operation": "SiteGeoMoveCompleted",
+   "Description": "A site geo move that was scheduled by a global administrator in your organization was successfully completed. The Multi-Geo capability lets an organization span multiple Microsoft datacenter geographies, which are called geos. For more information, see Multi-Geo Capabilities in OneDrive and SharePoint Online."
+ },
+ {
+   "Friendly name": "Created Sent To connection",
+   "Operation": "SendToConnectionAdded",
+   "Description": "A SharePoint or global administrator creates a new Send To connection on the Records management page in the SharePoint admin center. A Send To connection specifies settings for a document repository or a records center. When you create a Send To connection, a Content Organizer can submit documents to the specified location."
+ },
+ {
+   "Friendly name": "Created site collection",
+   "Operation": "SiteCollectionCreated",
+   "Description": "A SharePoint or global administrator creates a site collection in your SharePoint Online organization or a user provisions their OneDrive for Business site."
+ },
+ {
+   "Friendly name": "Deleted orphaned hub site",
+   "Operation": "HubSiteOrphanHubDeleted",
+   "Description": "A SharePoint or global administrator deleted an orphan hub site, which is a hub site that doesn't have any sites associated with it. An orphaned hub is likely caused by the deletion of the original hub site."
+ },
+ {
+   "Friendly name": "Deleted Sent To connection",
+   "Operation": "SendToConnectionRemoved",
+   "Description": "A SharePoint or global administrator deletes a Send To connection on the Records management page in the SharePoint admin center."
+ },
+ {
+   "Friendly name": "Deleted site",
+   "Operation": "SiteDeleted",
+   "Description": "Site administrator deletes a site."
+ },
+ {
+   "Friendly name": "Enabled document preview",
+   "Operation": "PreviewModeEnabledSet",
+   "Description": "Site administrator enables document preview for a site."
+ },
+ {
+   "Friendly name": "Enabled legacy workflow",
+   "Operation": "LegacyWorkflowEnabledSet",
+   "Description": "Site administrator or owner adds the SharePoint 2013 Workflow Task content type to the site. Global administrators can also enable work flows for the entire organization in the SharePoint admin center."
+ },
+ {
+   "Friendly name": "Enabled Office on Demand",
+   "Operation": "OfficeOnDemandSet",
+   "Description": "Site administrator enables Office on Demand, which lets users access the latest version of Office desktop applications. Office on Demand is enabled in the SharePoint admin center and requires a Microsoft 365 subscription that includes full, installed Office applications."
+ },
+ {
+   "Friendly name": "Enabled result source for People Searches",
+   "Operation": "PeopleResultsScopeSet",
+   "Description": "Site administrator creates the result source for People Searches for a site."
+ },
+ {
+   "Friendly name": "Enabled RSS feeds",
+   "Operation": "NewsFeedEnabledSet",
+   "Description": "Site administrator or owner enables RSS feeds for a site. Global administrators can enable RSS feeds for the entire organization in the SharePoint admin center."
+ },
+ {
+   "Friendly name": "Joined site to hub site",
+   "Operation": "HubSiteJoined",
+   "Description": "A site owner associates their site with a hub site."
+ },
+ {
+   "Friendly name": "Modified site collection quota",
+   "Operation": "SiteCollectionQuotaModified",
+   "Description": "Site administrator modifies the quota for a site collection."
+ },
+ {
+   "Friendly name": "Registered hub site",
+   "Operation": "HubSiteRegistered",
+   "Description": "A SharePoint or global administrator creates a hub site. The results are that the site is registered to be a hub site."
+ },
+ {
+   "Friendly name": "Removed allowed data location",
+   "Operation": "AllowedDataLocationDeleted",
+   "Description": "A SharePoint or global administrator removed an allowed data location in a multi-geo environment."
+ },
+ {
+   "Friendly name": "Removed geo location admin",
+   "Operation": "GeoAdminDeleted",
+   "Description": "A SharePoint or global administrator removed a user as a geo admin of a location."
+ },
+ {
+   "Friendly name": "Renamed site",
+   "Operation": "SiteRenamed",
+   "Description": "Site administrator or owner renames a site"
+ },
+ {
+   "Friendly name": "Scheduled site geo move",
+   "Operation": "SiteGeoMoveScheduled",
+   "Description": "A SharePoint or global administrator successfully schedules a SharePoint or OneDrive site geo move. The Multi-Geo capability lets an organization span multiple Microsoft datacenter geographies, which are called geos. For more information, see Multi-Geo Capabilities in OneDrive and SharePoint Online."
+ },
+ {
+   "Friendly name": "Set host site",
+   "Operation": "HostSiteSet",
+   "Description": "A SharePoint or global administrator changes the designated site to host personal or OneDrive for Business sites."
+ },
+ {
+   "Friendly name": "Set storage quota for geo location",
+   "Operation": "GeoQuotaAllocated",
+   "Description": "A SharePoint or global administrator configured the storage quota for a geo location in a multi-geo environment."
+ },
+ {
+   "Friendly name": "Unjoined site from hub site",
+   "Operation": "HubSiteUnjoined",
+   "Description": "A site owner disassociates their site from a hub site."
+ },
+ {
+   "Friendly name": "Unregistered hub site",
+   "Operation": "HubSiteUnregistered",
+   "Description": "A SharePoint or global administrator unregisters a site as a hub site. When a hub site is unregistered, it no longer functions as a hub site."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added site collection admin",
+   "Operation": "SiteCollectionAdminAdded",
+   "Description": "Site collection administrator or owner adds a person as a site collection administrator for a site. Site collection administrators have full control permissions for the site collection and all subsites. This activity is also logged when an admin gives themselves access to a user's OneDrive account (by editing the user profile in the SharePoint admin center or by using the Microsoft 365 admin center)."
+ },
+ {
+   "Friendly name": "Added user or group to SharePoint group",
+   "Operation": "AddedToGroup",
+   "Description": "User added a member or guest to a SharePoint group. This might have been an intentional action or the result of another activity, such as a sharing event."
+ },
+ {
+   "Friendly name": "Broke permission level inheritance",
+   "Operation": "PermissionLevelsInheritanceBroken",
+   "Description": "An item was changed so that it no longer inherits permission levels from its parent."
+ },
+ {
+   "Friendly name": "Broke sharing inheritance",
+   "Operation": "SharingInheritanceBroken",
+   "Description": "An item was changed so that it no longer inherits sharing permissions from its parent."
+ },
+ {
+   "Friendly name": "Created group",
+   "Operation": "GroupAdded",
+   "Description": "Site administrator or owner creates a group for a site, or performs a task that results in a group being created. For example, the first time a user creates a link to share a file, a system group is added to the user's OneDrive for Business site. This event can also be a result of a user creating a link with edit permissions to a shared file."
+ },
+ {
+   "Friendly name": "Deleted group",
+   "Operation": "GroupRemoved",
+   "Description": "User deletes a group from a site."
+ },
+ {
+   "Friendly name": "Modified access request setting",
+   "Operation": "WebRequestAccessModified",
+   "Description": "The access request settings were modified on a site."
+ },
+ {
+   "Friendly name": "Modified 'Members Can Share' setting",
+   "Operation": "WebMembersCanShareModified",
+   "Description": "The Members Can Share setting was modified on a site."
+ },
+ {
+   "Friendly name": "Modified permission level on a site collection",
+   "Operation": "PermissionLevelModified",
+   "Description": "A permission level was changed on a site collection."
+ },
+ {
+   "Friendly name": "Modified site permissions",
+   "Operation": "SitePermissionsModified",
+   "Description": "Site administrator or owner (or system account) changes the permission level that is assigned to a group on a site. This activity is also logged if all permissions are removed from a group.  NOTE: This operation has been deprecated in SharePoint Online. To find related events, you can search for other permission-related activities such as Added site collection admin, Added user or group to SharePoint group, Allowed user to create groups, Created group, and Deleted group."
+ },
+ {
+   "Friendly name": "Removed permission level from site collection",
+   "Operation": "PermissionLevelRemoved",
+   "Description": "A permission level was removed from a site collection."
+ },
+ {
+   "Friendly name": "Removed site collection admin",
+   "Operation": "SiteCollectionAdminRemoved",
+   "Description": "Site collection administrator or owner removes a person as a site collection administrator for a site. This activity is also logged when an admin removes themselves from the list of site collection administrators for a user's OneDrive account (by editing the user profile in the SharePoint admin center). To return this activity in the audit log search results, you have to search for all activities."
+ },
+ {
+   "Friendly name": "Removed user or group from SharePoint group",
+   "Operation": "RemovedFromGroup",
+   "Description": "User removed a member or guest from a SharePoint group. This might have been an intentional action or the result of another activity, such as an unsharing event."
+ },
+ {
+   "Friendly name": "Requested site admin permissions",
+   "Operation": "SiteAdminChangeRequest",
+   "Description": "User requests to be added as a site collection administrator for a site collection. Site collection administrators have full control permissions for the site collection and all subsites."
+ },
+ {
+   "Friendly name": "Restored sharing inheritance",
+   "Operation": "SharingInheritanceReset",
+   "Description": "A change was made so that an item inherits sharing permissions from its parent."
+ },
+ {
+   "Friendly name": "Updated group",
+   "Operation": "GroupUpdated",
+   "Description": "Site administrator or owner changes the settings of a group for a site. This can include changing the group's name, who can view or edit the group membership, and how membership requests are handled."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Allowed computer to sync files",
+   "Operation": "ManagedSyncClientAllowed",
+   "Description": "User successfully establishes a sync relationship with a site. The sync relationship is successful because the user's computer is a member of a domain that's been added to the list of domains (called the safe recipients list) that can access document libraries in your organization.  For more information about this feature, see Use PowerShell cmdlets to enable OneDrive sync for domains that are on the safe recipients list."
+ },
+ {
+   "Friendly name": "Blocked computer from syncing files",
+   "Operation": "UnmanagedSyncClientBlocked",
+   "Description": "User tries to establish a sync relationship with a site from a computer that isn't a member of your organization's domain or is a member of a domain that hasn't been added to the list of domains (called the safe recipients list) that can access document libraries in your organization. The sync relationship isn't allowed, and the user's computer is blocked from syncing, downloading, or uploading files on a document library.  For information about this feature, see Use PowerShell cmdlets to enable OneDrive sync for domains that are on the safe recipients list."
+ },
+ {
+   "Friendly name": "Downloaded files to computer",
+   "Operation": "FileSyncDownloadedFull",
+   "Description": "User downloads a file to their computer from a SharePoint document library or OneDrive for Business using OneDrive sync app (OneDrive.exe)."
+ },
+ {
+   "Friendly name": "Downloaded file changes to computer",
+   "Operation": "FileSyncDownloadedPartial",
+   "Description": "This event has been deprecated along with the old OneDrive for Business sync app (Groove.exe)."
+ },
+ {
+   "Friendly name": "Uploaded files to document library",
+   "Operation": "FileSyncUploadedFull",
+   "Description": "User uploads a new file or changes to a file in SharePoint document library or OneDrive for Business using OneDrive sync app (OneDrive.exe)."
+ },
+ {
+   "Friendly name": "Uploaded file changes to document library",
+   "Operation": "FileSyncUploadedPartial",
+   "Description": "This event has been deprecated along with the old OneDrive for Business sync app (Groove.exe)."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Data Share Created",
+   "Operation": "DataShareCreated",
+   "Description": "When the data export is created by the user."
+ },
+ {
+   "Friendly name": "Data Share Deleted",
+   "Operation": "DataShareDeleted",
+   "Description": "When the data export is deleted by the user."
+ },
+ {
+   "Friendly name": "Generate Copy Of Lake Data",
+   "Operation": "GenerateCopyOfLakeData",
+   "Description": "When the copy of Lake Data is generated."
+ },
+ {
+   "Friendly name": "Download Copy Of Lake Data",
+   "Operation": "DownloadCopyOfLakeData",
+   "Description": "When the copy of Lake Data is downloaded."
+ },
+ {
+   "Friendly name": "Activity",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added user",
+   "Operation": "Add user.",
+   "Description": "A user account was created."
+ },
+ {
+   "Friendly name": "Changed user license",
+   "Operation": "Change user license.",
+   "Description": "The license assigned to a user what changed. To see what licenses were changes, see the corresponding Updated user activity."
+ },
+ {
+   "Friendly name": "Changed user password",
+   "Operation": "Change user password.",
+   "Description": "A user changes their password. Self-service password reset has to be enabled (for all or selected users) in your organization to allow users to reset their password. You can also track self-service password reset activity in Microsoft Entra ID. For more information, see Reporting options for Microsoft Entra password management."
+ },
+ {
+   "Friendly name": "Deleted user",
+   "Operation": "Delete user.",
+   "Description": "A user account was deleted."
+ },
+ {
+   "Friendly name": "Reset user password",
+   "Operation": "Reset user password.",
+   "Description": "Administrator resets the password for a user."
+ },
+ {
+   "Friendly name": "Set property that forces user to change password",
+   "Operation": "Set force change user password.",
+   "Description": "Administrator set the property that forces a user to change their password the next time the user signs in to Microsoft 365."
+ },
+ {
+   "Friendly name": "Set license properties",
+   "Operation": "Set license properties.",
+   "Description": "Administrator modifies the properties of a licensed assigned to a user."
+ },
+ {
+   "Friendly name": "Updated user",
+   "Operation": "Update user.",
+   "Description": "Administrator changes one or more properties of a user account. For a list of the user properties that can be updated, see the \"Update user attributes\" section in Microsoft Entra audit Report Events."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Organization created",
+   "Operation": "Organization created",
+   "Description": "Admin or the user has created a new organization on Viva Goals."
+ },
+ {
+   "Friendly name": "User added",
+   "Operation": "User added",
+   "Description": "A new user has been added to an organization on Viva Goals."
+ },
+ {
+   "Friendly name": "User deactivated",
+   "Operation": "User deactivated",
+   "Description": "A user has been deactivated in an organization."
+ },
+ {
+   "Friendly name": "User deleted",
+   "Operation": "User deleted",
+   "Description": "A user has been deleted from an organization on Viva Goals."
+ },
+ {
+   "Friendly name": "User logged in",
+   "Operation": "User logged in",
+   "Description": "User has logged into Viva Goals."
+ },
+ {
+   "Friendly name": "Team added",
+   "Operation": "Team added",
+   "Description": "A new team has been created within an organization on Viva Goals."
+ },
+ {
+   "Friendly name": "Team updated",
+   "Operation": "Team updated",
+   "Description": "A team within an organization on Viva Goals has been modified or updated."
+ },
+ {
+   "Friendly name": "Team deleted",
+   "Operation": "Team deleted",
+   "Description": "A team within an organization on Viva Goals has been deleted by the user."
+ },
+ {
+   "Friendly name": "Data exported",
+   "Operation": "Data exported",
+   "Description": "A user has exported list of OKRs or list of users in an organization on Viva Goals."
+ },
+ {
+   "Friendly name": "Goals policy updated",
+   "Operation": "Goals policy updated",
+   "Description": "The global admin has modified the policy or settings at the tenant level on Viva Goals. For example, the global admin has configured who can create organizations on Viva Goals."
+ },
+ {
+   "Friendly name": "Organization settings updated",
+   "Operation": "Organization settings updated",
+   "Description": "The user (typically Organization owners or admins) has updated organization specific settings on Viva Goals."
+ },
+ {
+   "Friendly name": "Organization integrations updated",
+   "Operation": "Organization integrations updated",
+   "Description": "The user (typically Organization owners or admins) has configured a third party integration or updated an existing third party integration for an organization on Viva Goals."
+ },
+ {
+   "Friendly name": "OKR or Project created",
+   "Operation": "OKR or Project created",
+   "Description": "User has created an OKR or Project on Viva Goals."
+ },
+ {
+   "Friendly name": "OKR or Project updated",
+   "Operation": "OKR or Project updated",
+   "Description": "An OKR/Project has been modified or a check-in has been made by the user or an integration on Viva Goals."
+ },
+ {
+   "Friendly name": "OKR or Project deleted",
+   "Operation": "OKR or Project deleted",
+   "Description": "User has deleted an OKR or Project."
+ },
+ {
+   "Friendly name": "Dashboard created",
+   "Operation": "Dashboard created",
+   "Description": "User has created a new dashboard on Viva Goals"
+ },
+ {
+   "Friendly name": "Dashboard updated",
+   "Operation": "Dashboard updated",
+   "Description": "User has updated a dashboard on Viva Goals"
+ },
+ {
+   "Friendly name": "Dashboard deleted",
+   "Operation": "Dashboard deleted",
+   "Description": "User has deleted a dashboard on Viva Goals."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Added corporate communicator",
+   "Operation": "AddUserRole",
+   "Description": "A user is assigned as a corporate communicator."
+ },
+ {
+   "Friendly name": "Changed custom usage policy",
+   "Operation": "UsagePolicyUpdated",
+   "Description": "A tenant admin updates a custom usage policy."
+ },
+ {
+   "Friendly name": "Changed data retention policy",
+   "Operation": "SoftDeleteSettingsUpdated",
+   "Description": "Verified admin updates the setting for the network data retention policy to either Hard Delete or Soft Delete. Only verified admins can perform this operation."
+ },
+ {
+   "Friendly name": "Changed network configuration",
+   "Operation": "NetworkConfigurationUpdated",
+   "Description": "Network or verified admin changes the Viva Engage network's configuration. This includes setting the interval for exporting data and enabling chat."
+ },
+ {
+   "Friendly name": "Changed network profile settings",
+   "Operation": "ProcessProfileFields",
+   "Description": "Network or verified admin changes the information that appears on member profiles for network users network."
+ },
+ {
+   "Friendly name": "Changed private content mode",
+   "Operation": "SupervisorAdminToggled",
+   "Description": "Verified admin turns Private Content Mode on or off. This mode lets an admin view the posts in private groups and view private messages between individual users (or groups of users). Only verified admins only can perform this operation."
+ },
+ {
+   "Friendly name": "Changed security configuration",
+   "Operation": "NetworkSecurityConfigurationUpdated",
+   "Description": "Verified admin updates the Viva Engage network's security configuration. This includes setting password expiration policies and restrictions on IP addresses. Only verified admins can perform this operation."
+ },
+ {
+   "Friendly name": "Conversation closed",
+   "Operation": "CloseConversation",
+   "Description": "The Viva Engage thread has been closed, preventing users from replying to it. This action can be carried out by an admin, corporate communicator, or a user delegate."
+ },
+ {
+   "Friendly name": "Conversation opened",
+   "Operation": "OpenConversation",
+   "Description": "The Viva Engage thread conversation has been opened which allows users to reply to the thread. This action can be performed by an admin, corporate communications, or a user delegate."
+ },
+ {
+   "Friendly name": "Created file",
+   "Operation": "FileCreated",
+   "Description": "User uploads a file."
+ },
+ {
+   "Friendly name": "Created group",
+   "Operation": "GroupCreation",
+   "Description": "User creates a group."
+ },
+ {
+   "Friendly name": "Created message",
+   "Operation": "MessageCreation",
+   "Description": "User creates a message."
+ },
+ {
+   "Friendly name": "Deleted group",
+   "Operation": "GroupDeletion",
+   "Description": "A group is deleted from Viva Engage."
+ },
+ {
+   "Friendly name": "Deleted message",
+   "Operation": "MessageDeleted",
+   "Description": "User deletes a message."
+ },
+ {
+   "Friendly name": "Downloaded file",
+   "Operation": "FileDownloaded",
+   "Description": "User downloads a file."
+ },
+ {
+   "Friendly name": "Exported data",
+   "Operation": "DataExport",
+   "Description": "Verified admin exports Viva Engage network data. Only verified admins can perform this operation."
+ },
+ {
+   "Friendly name": "Failed to access file",
+   "Operation": "FileAccessFailure",
+   "Description": "User failed to access a file."
+ },
+ {
+   "Friendly name": "Failed to access group",
+   "Operation": "GroupAccessFailure",
+   "Description": "User failed to access a group."
+ },
+ {
+   "Friendly name": "Failed to access thread",
+   "Operation": "ThreadAccessFailure",
+   "Description": "User failed to access a message thread."
+ },
+ {
+   "Friendly name": "Reacted to message",
+   "Operation": "MarkedMessageChanged",
+   "Description": "User reacted to a message."
+ },
+ {
+   "Friendly name": "Removed Corporate Communicator",
+   "Operation": "RemoveUserRole",
+   "Description": "A user is removed from the Corporate Communicator role."
+ },
+ {
+   "Friendly name": "Remove curated topic*",
+   "Operation": "RemoveCuratedTopic",
+   "Description": "User removes a curated topic."
+ },
+ {
+   "Friendly name": "Shared file",
+   "Operation": "FileShared",
+   "Description": "User shares a file with another user."
+ },
+ {
+   "Friendly name": "Suspended network user",
+   "Operation": "NetworkUserSuspended",
+   "Description": "Network or verified admin suspends (deactivates) a user from Viva Engage."
+ },
+ {
+   "Friendly name": "Suspended user",
+   "Operation": "UserSuspension",
+   "Description": "User account is suspended (deactivated)."
+ },
+ {
+   "Friendly name": "Tenant Usage Policy Acceptance",
+   "Operation": "UsagePolicyAcceptance",
+   "Description": "A user accepts a tenant-specific usage policy."
+ },
+ {
+   "Friendly name": "Thread Muted",
+   "Operation": "AdminThreadMuted",
+   "Description": "A thread has been muted by admin or watch alert (system user). A watch alert occurs when a thread is flagged for a certain theme (set by the admin) and is auto-muted by the system."
+ },
+ {
+   "Friendly name": "Thread Unmuted",
+   "Operation": "AdminThreadUnmuted",
+   "Description": "Admin unmuted a thread."
+ },
+ {
+   "Friendly name": "Updated file description",
+   "Operation": "FileUpdateDescription",
+   "Description": "User changes the description of a file."
+ },
+ {
+   "Friendly name": "Updated file name",
+   "Operation": "FileUpdateName",
+   "Description": "User changes the name of a file."
+ },
+ {
+   "Friendly name": "Updated message",
+   "Operation": "MessageUpdated",
+   "Description": "User updates a message."
+ },
+ {
+   "Friendly name": "Updated role assignment for Network Admin",
+   "Operation": "NetworkAdminUpdated",
+   "Description": "A user is either promoted or demoted to the Network Admin role."
+ },
+ {
+   "Friendly name": "Updated role assignment for Verified Admin",
+   "Operation": "NetworkVerifiedAdminUpdated",
+   "Description": "A user is either promoted or demoted to the Verified Admin role."
+ },
+ {
+   "Friendly name": "Viewed file",
+   "Operation": "FileVisited",
+   "Description": "User views a file."
+ },
+ {
+   "Friendly name": "Viewed thread",
+   "Operation": "ThreadViewed",
+   "Description": "User views a message thread."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "User submitted response to a pulse survey",
+   "Operation": "PulseSubmit",
+   "Description": "Admin or user provided feedback for a Viva Pulse feedback request."
+ },
+ {
+   "Friendly name": "User created a Pulse survey",
+   "Operation": "PulseCreate",
+   "Description": "New Viva Pulse feedback request is created."
+ },
+ {
+   "Friendly name": "User extended their pulse survey deadline",
+   "Operation": "PulseExtendDeadline",
+   "Description": "The deadline for the existing Viva Pulse feedback request was extended."
+ },
+ {
+   "Friendly name": "User invited additional users to Pulse survey",
+   "Operation": "PulseInvite",
+   "Description": "Additional users were invited to an existing Viva Pulse feedback request."
+ },
+ {
+   "Friendly name": "User canceled a Pulse survey",
+   "Operation": "PulseCancel",
+   "Description": "User canceled a Pulse survey."
+ },
+ {
+   "Friendly name": "User shared a pulse report",
+   "Operation": "PulseShareResults",
+   "Description": "Viva Pulse feedback result was shared with users."
+ },
+ {
+   "Friendly name": "User created a Pulse draft",
+   "Operation": "PulseCreateDraft",
+   "Description": "User created a Pulse draft."
+ },
+ {
+   "Friendly name": "User deleted a Pulse draft",
+   "Operation": "PulseDeleteDraft",
+   "Description": "User deleted a Pulse draft."
+ },
+ {
+   "Friendly name": "Admin deleted an user's data",
+   "Operation": "PulseDeleteUserData",
+   "Description": "Admin deleted an user's data."
+ },
+ {
+   "Friendly name": "Admin updated tenant's settings",
+   "Operation": "PulseTenantSettingsUpdate",
+   "Description": "Admin updated an organization setting for Viva Pulse."
+ },
+ {
+   "Friendly name": "Friendly name",
+   "Operation": "Operation",
+   "Description": "Description"
+ },
+ {
+   "Friendly name": "Trigger device remediation",
+   "Operation": "Trigger device remediation",
+   "Description": "Trigger device remediation."
+ },
+ {
+   "Friendly name": "Upload folder to blob",
+   "Operation": "Upload folder to blob",
+   "Description": "Compress and upload customer device's folder to blob."
+ },
+ {
+   "Friendly name": "Check PowerShell Execution Policy",
+   "Operation": "Check PowerShell Execution Policy",
+   "Description": "Check PowerShell execution policy."
+ },
+ {
+   "Friendly name": "Install RD agent",
+   "Operation": "Install RD agent",
+   "Description": "Install RD agent on the device of the user."
+ },
+ {
+   "Friendly name": "Run hybrid AADJ extension",
+   "Operation": "Run hybrid AADJ extension",
+   "Description": "Run hybrid AADJ extension on the device of the user."
+ },
+ {
+   "Friendly name": "Create VmExtension Request",
+   "Operation": "Create VmExtention Request",
+   "Description": "Creates VM extension requests to execute VM extension to run custom scripts on the customer device."
+ },
+ {
+   "Friendly name": "Trigger orchestrator",
+   "Operation": "Trigger orchestrator",
+   "Description": "Trigger orchestrator for the user."
+ },
+ {
+   "Friendly name": "Trigger generic action by SaaF",
+   "Operation": "Trigger generic action by SaaF",
+   "Description": "Trigger device action (Retargeting, EnableRdpAccessForCitrix, DisableRdpAccessFprCitrix) for user."
+ },
+ {
+   "Friendly name": "Trigger generic action",
+   "Operation": "Trigger generic action",
+   "Description": "Trigger device action for user."
+ },
+ {
+   "Friendly name": "Trigger generic action with options",
+   "Operation": "Trigger generic action with options",
+   "Description": "Trigger device action with option parameters, more powerful than that of trigger generic action."
+ },
+ {
+   "Friendly name": "Create new work items (Scheduler)",
+   "Operation": "Create new work items (Scheduler)",
+   "Description": "Create new work items, For example, Provision, Deprovision, Reprovision etc."
+ },
+ {
+   "Friendly name": "Post Remote Action Operation",
+   "Operation": "Post Remote Action Operation",
+   "Description": "Post Remote Action, plus polling the result by GetActions operation."
+ },
+ {
+   "Friendly name": "OCE Run Commands on VM",
+   "Operation": "OCE Run Commands on VM",
+   "Description": "Run commands by tenantID, deviceID list, and script."
+ },
+ {
+   "Friendly name": "Create LogCollection Request",
+   "Operation": "Create LogCollection Request",
+   "Description": "Create log collection request to Cloud PC."
+ },
+ {
+   "Friendly name": "Trigger CMD Agent Canary check.",
+   "Operation": "Trigger CMD Agent Canary check.",
+   "Description": "Trigger CMD Agent Canary check on specific device."
+ },
+ {
+   "Friendly name": "Execute AppHealthPlugin",
+   "Operation": "Execute AppHealthPlugin",
+   "Description": "Execute AppHealthPlugin."
+ },
+ {
+   "Friendly name": "Backfill CMD Agent",
+   "Operation": "AddDevicesToBackfill Operation",
+   "Description": "Backfill CMD Agent on Cloud PC."
+ },
+ {
+   "Friendly name": "Reinstall CMD Agent",
+   "Operation": "AddDevicesToReinstall Operation",
+   "Description": "Reinstall CMD Agent on demand."
+ },
+ {
+   "Friendly name": "Bulk reinstall CMD Agent",
+   "Operation": "TriggerClientAgentCheckBulkAction Operation",
+   "Description": "Bulk reinstall CMD agent on demand."
+ },
+ {
+   "Friendly name": "Create Remote Action Operation in ActionModeratorService",
+   "Operation": "Create Remote Action Operation in ActionModeratorService",
+   "Description": "Create remote action by tenantID, workspaceID, actionType, actionParameters."
+ }
+]
