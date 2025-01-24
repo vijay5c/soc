@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Port Lookup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 5px 0;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Port Lookup</h1>
+  <label for="portInput">Enter Port Number:</label>
+  <input type="number" id="portInput" placeholder="Enter port number" />
+  <button onclick="lookupPort()">Search</button>
+
+  <div id="result" class="result" style="display: none;"></div>
+
+  <script>
+    async function lookupPort() {
+      const port = document.getElementById("portInput").value;
+      const resultDiv = document.getElementById("result");
+
+      if (!port) {
+        resultDiv.style.display = "block";
+        resultDiv.innerHTML = "Please enter a valid port number.";
+        return;
+      }
+
+      try {
+        const response = await fetch('https://raw.githubusercontent.com/vijay5c/soc/refs/heads/main/ports.json');
+        const data = await response.json();
+        const portInfo = data.find(item => item.PortNumber === port);
+
+        if (portInfo) {
+          resultDiv.style.display = "block";
+          resultDiv.innerHTML = `
+            <strong>Port Number:</strong> ${portInfo.PortNumber}<br>
+            <strong>Service:</strong> ${portInfo.Service || "N/A"}<br>
+            <strong>Protocol:</strong> ${portInfo.Protocol}<br>
+            <strong>Description:</strong> ${portInfo.Description}
+          `;
+        } else {
+          resultDiv.style.display = "block";
+          resultDiv.innerHTML = "No information found for the entered port number.";
+        }
+      } catch (error) {
+        resultDiv.style.display = "block";
+        resultDiv.innerHTML = "Error fetching port data. Please try again later.";
+        console.error("Error fetching JSON data:", error);
+      }
+    }
+  </script>
+</body>
+</html>
